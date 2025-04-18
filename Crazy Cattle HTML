@@ -1,1358 +1,265 @@
-<html lang="en-US"><head> <meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"><meta name="external" content="true"><meta name="distribution" content="Global"><meta http-equiv="audience" content="General"><title>Crazy Cattle 3D | Play Crazycattle3d Online!</title><meta name="title" content="Crazy Cattle 3D | Play crazycattle3d online!"><meta name="description" content="Crazy Cattle 3D is an indie, single-player battle royale game where you play as a sheep trying to eliminate other sheep by bumping into them and knocking them over."><meta name="keywords" content="crazy cattle 3d, crazy cattle 3d online, crazy cattle 3d game, crazy cattle 3d unblocked, crazy cattle 3d free"><meta name="news_keywords" content="crazy cattle 3d, crazy cattle 3d online, crazy cattle 3d game, crazy cattle 3d unblocked, crazy cattle 3d free"><link rel="canonical" href="https://crazycattle3d.io"><link rel="icon" href="/cache/data/image/options/crazy-cattle-3d-favicon-m60x60.png"><link rel="apple-touch-icon" href="/cache/data/image/options/crazy-cattle-3d-favicon-m60x60.png"><link rel="apple-touch-icon" sizes="57x57" href="/cache/data/image/options/crazy-cattle-3d-favicon-m57x57.png"><link rel="apple-touch-icon" sizes="72x72" href="/cache/data/image/options/crazy-cattle-3d-favicon-m72x72.png"><link rel="apple-touch-icon" sizes="114x114" href="/cache/data/image/options/crazy-cattle-3d-favicon-m144x144.png"><meta property="og:title" content="Crazy Cattle 3D | Play crazycattle3d online!" itemprop="headline"><meta property="og:type" content="website"><meta property="og:url" itemprop="url" content="https://crazycattle3d.io"><meta property="og:image" itemprop="thumbnailUrl" content="/data/image/options/crazy-cattle-3d-game.jpg"><meta property="og:description" content="Crazy Cattle 3D is an indie, single-player battle royale game where you play as a sheep trying to eliminate other sheep by bumping into them and knocking them over." itemprop="description"><meta property="og:site_name" content="Crazy Cattle 3D"><meta name="twitter:title" content="Crazy Cattle 3D | Play crazycattle3d online!"><meta name="twitter:url" content="https://crazycattle3d.io"><meta name="twitter:image" content="/data/image/options/crazy-cattle-3d-game.jpg"><meta name="twitter:description" content="Crazy Cattle 3D is an indie, single-player battle royale game where you play as a sheep trying to eliminate other sheep by bumping into them and knocking them over."><meta name="twitter:card" content="summary"><style id="global-styles-inline-css" type="text/css">body {
- --wp--preset--color--black: #000000;
- --wp--preset--color--cyan-bluish-gray: #abb8c3;
- --wp--preset--color--white: #ffffff;
- --wp--preset--color--pale-pink: #f78da7;
- --wp--preset--color--vivid-red: #cf2e2e;
- --wp--preset--color--luminous-vivid-orange: #ff6900;
- --wp--preset--color--luminous-vivid-amber: #fcb900;
- --wp--preset--color--light-green-cyan: #7bdcb5;
- --wp--preset--color--vivid-green-cyan: #00d084;
- --wp--preset--color--pale-cyan-blue: #8ed1fc;
- --wp--preset--color--vivid-cyan-blue: #0693e3;
- --wp--preset--color--vivid-purple: #9b51e0;
- --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
- --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
- --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
- --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
- --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
- --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
- --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
- --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
- --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
- --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
- --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
- --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
- --wp--preset--font-size--small: 13px;
- --wp--preset--font-size--medium: 20px;
- --wp--preset--font-size--large: 36px;
- --wp--preset--font-size--x-large: 42px;
- --wp--preset--spacing--20: 0.44rem;
- --wp--preset--spacing--30: 0.67rem;
- --wp--preset--spacing--40: 1rem;
- --wp--preset--spacing--50: 1.5rem;
- --wp--preset--spacing--60: 2.25rem;
- --wp--preset--spacing--70: 3.38rem;
- --wp--preset--spacing--80: 5.06rem;
- --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
- --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
- --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
- --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
- --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
- }
-
- :where(.is-layout-flex) {
- gap: 0.5em;
- }
-
- :where(.is-layout-grid) {
- gap: 0.5em;
- }
-
- body .is-layout-flow>.alignleft {
- float: left;
- margin-inline-start: 0;
- margin-inline-end: 2em;
- }
-
- body .is-layout-flow>.alignright {
- float: right;
- margin-inline-start: 2em;
- margin-inline-end: 0;
- }
-
- body .is-layout-flow>.aligncenter {
- margin-left: auto !important;
- margin-right: auto !important;
- }
-
- body .is-layout-constrained>.alignleft {
- float: left;
- margin-inline-start: 0;
- margin-inline-end: 2em;
- }
-
- body .is-layout-constrained>.alignright {
- float: right;
- margin-inline-start: 2em;
- margin-inline-end: 0;
- }
-
- body .is-layout-constrained>.aligncenter {
- margin-left: auto !important;
- margin-right: auto !important;
- }
-
- body .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
- max-width: var(--wp--style--global--content-size);
- margin-left: auto !important;
- margin-right: auto !important;
- }
-
- body .is-layout-constrained>.alignwide {
- max-width: var(--wp--style--global--wide-size);
- }
-
- body .is-layout-flex {
- display: flex;
- }
-
- body .is-layout-flex {
- flex-wrap: wrap;
- align-items: center;
- }
-
- body .is-layout-flex>* {
- margin: 0;
- }
-
- body .is-layout-grid {
- display: grid;
- }
-
- body .is-layout-grid>* {
- margin: 0;
- }
-
- :where(.wp-block-columns.is-layout-flex) {
- gap: 2em;
- }
-
- :where(.wp-block-columns.is-layout-grid) {
- gap: 2em;
- }
-
- :where(.wp-block-post-template.is-layout-flex) {
- gap: 1.25em;
- }
-
- :where(.wp-block-post-template.is-layout-grid) {
- gap: 1.25em;
- }
-
- .has-black-color {
- color: var(--wp--preset--color--black) !important;
- }
-
- .has-cyan-bluish-gray-color {
- color: var(--wp--preset--color--cyan-bluish-gray) !important;
- }
-
- .has-white-color {
- color: var(--wp--preset--color--white) !important;
- }
-
- .has-pale-pink-color {
- color: var(--wp--preset--color--pale-pink) !important;
- }
-
- .has-vivid-red-color {
- color: var(--wp--preset--color--vivid-red) !important;
- }
-
- .has-luminous-vivid-orange-color {
- color: var(--wp--preset--color--luminous-vivid-orange) !important;
- }
-
- .has-luminous-vivid-amber-color {
- color: var(--wp--preset--color--luminous-vivid-amber) !important;
- }
-
- .has-light-green-cyan-color {
- color: var(--wp--preset--color--light-green-cyan) !important;
- }
-
- .has-vivid-green-cyan-color {
- color: var(--wp--preset--color--vivid-green-cyan) !important;
- }
-
- .has-pale-cyan-blue-color {
- color: var(--wp--preset--color--pale-cyan-blue) !important;
- }
-
- .has-vivid-cyan-blue-color {
- color: var(--wp--preset--color--vivid-cyan-blue) !important;
- }
-
- .has-vivid-purple-color {
- color: var(--wp--preset--color--vivid-purple) !important;
- }
-
- .has-black-background-color {
- background-color: var(--wp--preset--color--black) !important;
- }
-
- .has-cyan-bluish-gray-background-color {
- background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
- }
-
- .has-white-background-color {
- background-color: var(--wp--preset--color--white) !important;
- }
-
- .has-pale-pink-background-color {
- background-color: var(--wp--preset--color--pale-pink) !important;
- }
-
- .has-vivid-red-background-color {
- background-color: var(--wp--preset--color--vivid-red) !important;
- }
-
- .has-luminous-vivid-orange-background-color {
- background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
- }
-
- .has-luminous-vivid-amber-background-color {
- background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
- }
-
- .has-light-green-cyan-background-color {
- background-color: var(--wp--preset--color--light-green-cyan) !important;
- }
-
- .has-vivid-green-cyan-background-color {
- background-color: var(--wp--preset--color--vivid-green-cyan) !important;
- }
-
- .has-pale-cyan-blue-background-color {
- background-color: var(--wp--preset--color--pale-cyan-blue) !important;
- }
-
- .has-vivid-cyan-blue-background-color {
- background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
- }
-
- .has-vivid-purple-background-color {
- background-color: var(--wp--preset--color--vivid-purple) !important;
- }
-
- .has-black-border-color {
- border-color: var(--wp--preset--color--black) !important;
- }
-
- .has-cyan-bluish-gray-border-color {
- border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
- }
-
- .has-white-border-color {
- border-color: var(--wp--preset--color--white) !important;
- }
-
- .has-pale-pink-border-color {
- border-color: var(--wp--preset--color--pale-pink) !important;
- }
-
- .has-vivid-red-border-color {
- border-color: var(--wp--preset--color--vivid-red) !important;
- }
-
- .has-luminous-vivid-orange-border-color {
- border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
- }
-
- .has-luminous-vivid-amber-border-color {
- border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
- }
-
- .has-light-green-cyan-border-color {
- border-color: var(--wp--preset--color--light-green-cyan) !important;
- }
-
- .has-vivid-green-cyan-border-color {
- border-color: var(--wp--preset--color--vivid-green-cyan) !important;
- }
-
- .has-pale-cyan-blue-border-color {
- border-color: var(--wp--preset--color--pale-cyan-blue) !important;
- }
-
- .has-vivid-cyan-blue-border-color {
- border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
- }
-
- .has-vivid-purple-border-color {
- border-color: var(--wp--preset--color--vivid-purple) !important;
- }
-
- .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
- background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
- }
-
- .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
- background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
- }
-
- .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
- background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
- }
-
- .has-luminous-vivid-orange-to-vivid-red-gradient-background {
- background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
- }
-
- .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
- background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
- }
-
- .has-cool-to-warm-spectrum-gradient-background {
- background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
- }
-
- .has-blush-light-purple-gradient-background {
- background: var(--wp--preset--gradient--blush-light-purple) !important;
- }
-
- .has-blush-bordeaux-gradient-background {
- background: var(--wp--preset--gradient--blush-bordeaux) !important;
- }
-
- .has-luminous-dusk-gradient-background {
- background: var(--wp--preset--gradient--luminous-dusk) !important;
- }
-
- .has-pale-ocean-gradient-background {
- background: var(--wp--preset--gradient--pale-ocean) !important;
- }
-
- .has-electric-grass-gradient-background {
- background: var(--wp--preset--gradient--electric-grass) !important;
- }
-
- .has-midnight-gradient-background {
- background: var(--wp--preset--gradient--midnight) !important;
- }
-
- .has-small-font-size {
- font-size: var(--wp--preset--font-size--small) !important;
- }
-
- .has-medium-font-size {
- font-size: var(--wp--preset--font-size--medium) !important;
- }
-
- .has-large-font-size {
- font-size: var(--wp--preset--font-size--large) !important;
- }
-
- .has-x-large-font-size {
- font-size: var(--wp--preset--font-size--x-large) !important;
- }
-
- .wp-block-navigation a:where(:not(.wp-element-button)) {
- color: inherit;
- }
-
- :where(.wp-block-post-template.is-layout-flex) {
- gap: 1.25em;
- }
-
- :where(.wp-block-post-template.is-layout-grid) {
- gap: 1.25em;
- }
-
- :where(.wp-block-columns.is-layout-flex) {
- gap: 2em;
- }
-
- :where(.wp-block-columns.is-layout-grid) {
- gap: 2em;
- }
-
- .wp-block-pullquote {
- font-size: 1.5em;
- line-height: 1.6;
- }</style><link rel="stylesheet" href="/themes/crazycattle3d/rs/css/main.css"><link rel="stylesheet" href="/themes/crazycattle3d/rs/css/style.css"><link rel="stylesheet" href="/themes/crazycattle3d/rs/css/ads.css"><!-- Global site tag (gtag.js) - Google Analytics --><script async="" src="https://www.clarity.ms/s/0.8.1/clarity.js"></script><script async="" src="https://www.clarity.ms/tag/r55gri8k7c"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-PH9KB6Y2HN" type="text/javascript"></script><script type="text/javascript">window.dataLayer = window.dataLayer || [];
-
-		function gtag() {
-			dataLayer.push(arguments);
-		}
-		gtag('js', new Date());
-
-		gtag('config', 'G-PH9KB6Y2HN');</script><!-- Schema Code --><script type="application/ld+json">{
- "@context": "https://schema.org",
- "@type": "LocalBusiness",
- "name": "Crazy Cattle 3D",
- "image": "https://crazycattle3d.io/data/image/options/crazy-cattle-3d.png",
- "@id": "",
- "url": "https://crazycattle3d.io",
- "telephone": "(907) 457-2631",
- "priceRange": "$",
- "address": {
- "@type": "PostalAddress",
- "streetAddress": "919 Stimple Ct",
- "addressLocality": "Fairbanks",
- "addressRegion": "AK",
- "postalCode": "99712",
- "addressCountry": "US"
- },
- "OpeningHoursSpecification": {
- "@type": "OpeningHoursSpecification",
- "dayOfWeek": [
- "Monday",
- "Tuesday",
- "Wednesday",
- "Thursday",
- "Friday",
- "Saturday",
- "Sunday"
- ],
- "opens": "00:00",
- "closes": "23:59"
- },
- "sameAs": [
- "",
- "",
- "",
- "",
- "",
- "",
- "",
- "",
- "",
- "",
- "",
- "",
- "",
- "",
- "",
- "",
- "",
- "",
- ""
- ]
-} </script>
-<script type="application/ld+json">{
- "@context": "https://schema.org",
- "@type": "WebSite",
- "name": "Crazy Cattle 3D",
- "alternateName": "Crazy Cattle 3D, Crazy Cattle 3D Online, Crazy Cattle 3D Game, Crazy Cattle 3D Unblocked, Crazy Cattle 3D Free",
- "url": "https://crazycattle3d.io",
- "potentialAction": {
- "@type": "SearchAction",
- "target": "https://crazycattle3d.io/search/{search_term_string}",
- "query-input": "required name=search_term_string"
- }
-} </script><script type="text/javascript">var domain_url = '';
- let id_game = '';
- let url_game = '';
- let keywords = '';
- let tag_id = '';
- let category_id = '';
- let field_order = '';
- let order_type = '';
- let is_hot = '';
- let is_new = '';
- let slug_home = "";
- let limit = '';
- let oldValue = '';</script><script type="text/javascript">(function(c,l,a,r,i,t,y){
- c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
- t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
- y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
- })(window, document, "clarity", "script", "r55gri8k7c");</script></head><!-- Clarity Code --><body class="home page-template page-template-tmpl-page-home page-template-tmpl-page-home-php page page-id-2 scroll"><div class="ads-slot myads ads_left"><div class="ads"><div class="ads-margin"><div class="ads-title">Advertisement</div><div class="ads-doc"></div></div></div> </div><div class="ads-slot myads ads_right"><div class="ads"><div class="ads-margin"><div class="ads-title">Advertisement</div><div class="ads-doc"></div></div></div> </div><div class="layout"><div class="layout__header"><header class="header" role="banner"><div class="container"><div class="header__inner"><div class="header__logo"><a href="/" class="logo" title="Crazy Cattle 3D"><img class="img-fluid logo__image logo__image--dark" src="/cache/data/image/options/crazy-cattle-3d-hx60.png" width="100%" height="60" title="Crazy Cattle 3D" alt="Crazy Cattle 3D logo"><img class="img-fluid logo__image logo__image--light" src="/cache/data/image/options/crazy-cattle-3d-hx60.png" width="100%" height="60" title="Crazy Cattle 3D" alt="Crazy Cattle 3D logo"></a></div><div class="header__search"><div class="search-form"><div class="search-form__inner"><input id="search" class="search-form__input" value="" placeholder="Search games" type="text"><button class="search-form__btn search-form-send--js" aria-label="search"><svg class="icon" width="20px" height="20px"><use xlink:href="#icon-search"></use></svg></button></div></div></div><div class="header__mobile"><a href="#" class="nav-side-toggler js-nav-side-toggle" title="Button Menu"><svg class="icon" width="40px" height="40px"><use xlink:href="#icon-menu"></use></svg></a></div></div></div></header></div><div class="layout__content"><div class="container"><div class="template"><!-- sidebar --><div class="template__sidebar"><nav class="nav-side js-nav-side"><div class="nav-side__widget"><nav class="side-menu"><ul id="menu-side-menu" class="side-menu__inner"><li id="menu-item-1440" class="menu-item menu-item-type-taxonomy menu-item-object-category side-menu__item side-menu__item--1440"><a href="/new-games" class="side-menu__link side-menu__link--1440" title="New Games"><span class="name">New Games</span></a></li><li id="menu-item-1468" class="menu-item menu-item-type-taxonomy menu-item-object-category side-menu__item side-menu__item--1468"><a href="/hot-games" class="side-menu__link side-menu__link--1468" title="Hot Games"><span class="name">Hot Games</span></a></li></ul></nav></div><div class="nav-side__widget"><ul class="theme-toggler"><li class="theme-toggler__item"><a id="light-button" href="#" class="theme-toggler__button js-theme-toggler active" title="Button Light">Light</a></li><li class="theme-toggler__item"><a id="dark-button" href="#" class="theme-toggler__button js-theme-toggler" title="Button Dark">Dark</a></li></ul></div><ul class="nav-side__items"><li class="nav-side__item"><a href="/games/crazy-games" class="nav-side__link" title="Crazy Games"><span class="nav-side__title">Crazy Games</span></a></li><li class="nav-side__item"><a href="/games/battle-games" class="nav-side__link" title="Battle Games"><span class="nav-side__title">Battle Games</span></a></li><li class="nav-side__item"><a href="/games/animal-games" class="nav-side__link" title="Animal Games"><span class="nav-side__title">Animal Games</span></a></li></ul></nav></div><div class="template__content"><section class="area area--pattern"><div class="player"><div class="ads-slot "><div class="ads"><div class="ads-margin"><div class="ads-title">Advertisement</div><div class="ads-ngang"></div></div></div>				</div><br><div class="player__inner"><div class="player__columns"><div class="player__content"><div id="flash-container" class="flash-container iframe" data-fullwidth="0"><iframe class="iframe-default" id="iframehtml5" title="Crazy Cattle 3D" width="100%" height="600px" src="/crazy-cattle-3d.embed" frameborder="0" border="0" scrolling="auto" allowfullscreen=""></iframe></div><div class="player__actions player-actions"><div class="player-actions__item"><div class="shares-popup"><a href="#" class="btn btn--accent shares-popup__toggler player-action player-action--shares js-shares-toggler" title="Share"><svg class="icon" width="24px" height="24px"><use xlink:href="#icon-share"></use></svg>Share</a><div class="shares-popup__form js-shares-popup"><div class="shares-popup__inner"><p class="shares-popup__title">Share with friends:</p><a href="#" class="shares-popup__close js-shares-popup-close" title="Close Share"><svg class="icon" width="20px" height="20px"><use xlink:href="#icon-close"></use></svg></a><div class="shares"><div class="shares__buttons"><div class="social-share-group"><bento-social-share type="email" aria-label="Share via email" class="i-amphtml-built"></bento-social-share><bento-social-share type="facebook" aria-label="Share on Facebook" class="i-amphtml-built"></bento-social-share><bento-social-share type="twitter" aria-label="Share on Twitter" class="i-amphtml-built"></bento-social-share><bento-social-share type="linkedin" aria-label="Share on Linkedin" class="i-amphtml-built"></bento-social-share><bento-social-share type="pinterest" aria-label="Share on pinterest" class="i-amphtml-built"></bento-social-share><bento-social-share type="tumblr" aria-label="Share on tumblr" class="i-amphtml-built"></bento-social-share><bento-social-share type="whatsapp" aria-label="Share on whatsapp" class="i-amphtml-built"></bento-social-share><bento-social-share type="line" aria-label="Share on line" class="i-amphtml-built"></bento-social-share></div></div><p class="shares__subtitle">Or share link</p><div class="shares__link"><input id="shares-link-input" class="shares__link-val" value="http://crazycattle3d.io/"><a href="#" class="shares__link-copy js-shares-copy-link" title="Copy share link">Copy</a></div></div></div></div></div></div><div class="player-actions__item"><a href="#comments" class="btn btn--accent" title="Comment"><svg class="icon" width="24px" height="24px"><use xlink:href="#icon-comments"></use></svg>Comment </a></div><div class="player-actions__item"><a href="#" class="btn-fullscreen js-fullscreen" title="fullscreen"><svg class="icon" width="24px" height="24px"><use xlink:href="#icon-fullscreen"></use></svg></a></div></div></div></div></div></div><div class="ads-slot "><div class="ads"><div class="ads-margin"><div class="ads-title">Advertisement</div><div class="ads-ngang"></div></div></div>			</div><br><div class="player__header player-header"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/crazy-cattle-3d-game-m300x300.jpg" class="lazy-image player-header__thumb img-fluid wp-post-image" decoding="async" fetchpriority="high" sizes="(max-width: 300px) 100vw, 300px" alt="Crazy Cattle 3D" title="Crazy Cattle 3D"><div class="player-header__content"><h1 class="player-header__title title">Crazy Cattle 3D</h1><div class="player-header__rating"><div class="rating-box"><div id="append-rate"><style>
- .font-rate {
- display: flex;
- align-items: center;
- }
-
- #default-demo {
- width: 178px !important;
- }
-
- .rating-element .rating img {
- width: 30px;
- height: 30px;
- }
-</style>
- <div id="rating">
- <div class="inner-rating margin-b10" itemprop="reviewRating" itemscope="" itemtype="http://schema.org/Rating">
- <div id="full_rate_1" class="full_rate">
- <div class="font-rate">
- <div class="rating_hover rating-element">
- <div class="rating flex" id="default-demo" data-id="31" style="cursor: pointer; width: 140px;" data-score="4.6" data-readonly=""><img src="/themes/crazycattle3d/rs/plugins/raty/images/star-on.svg" alt="1" title="bad">&nbsp;<img src="/themes/crazycattle3d/rs/plugins/raty/images/star-on.svg" alt="2" title="poor">&nbsp;<img src="/themes/crazycattle3d/rs/plugins/raty/images/star-on.svg" alt="3" title="regular">&nbsp;<img src="/themes/crazycattle3d/rs/plugins/raty/images/star-on.svg" alt="4" title="good">&nbsp;<img src="/themes/crazycattle3d/rs/plugins/raty/images/star-half-big.svg" alt="5" title="gorgeous"><input type="hidden" name="score" value="4.6"></div>
- </div>
- <span class="rating-element" id="rate-avg" rel="v:rating">
- <span class="rate-info">
- <span id="countrate">344 votes </span>
- <span itemprop="ratingValue" class="rating-num gorgeous" id="averagerate">4.6</span>
- <span class="rating-num gorgeous">/</span>
- <span itemprop="bestRating" class="rating-num gorgeous">5</span>
- </span>
- </span>
- </div>
- </div>
- </div>
- </div>
-<script type="text/javascript">
- var dir_theme = '/themes/crazycattle3d/';
- var domain_url = 'http://crazycattle3d.io';
-</script>
+<html lang="en-US"><head>
+	<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-QGGTSRMZCQ"></script>
 <script>
- rateForFun();
- ratingJs();
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
- function rateForFun() {
- var readonly = $(this).data('readonly');
- $('.default-rating').raty({
- readOnly: function() {
- return $(this).data('readonly');
- },
- score: function() {
- return $(this).attr('data-score');
- },
- });
- }
+  gtag('config', 'G-QGGTSRMZCQ');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="content-language" content="en">
+    <meta name="external" content="true">
+    <meta name="distribution" content="Global">
+    <meta http-equiv="audience" content="General">
+    <link rel="icon" href="rs/imgs/crazy-cattle-3d-fav.png">
+    <title>Crazy Cattle 3D - Crazy Cattle 3D</title>
+    <meta name="keywords" content="crazy cattle 3d">
+    <meta name="news_keywords" content="crazy cattle 3d">
+    <meta name="description" content="Crazy Cattle 3D - Crazy Cattle 3D">
+    <link rel="stylesheet" type="text/css" href="rs/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@500;600;700&amp;display=swap" rel="stylesheet">
+</head>
 
- function ratingJs() {
- var readdddonly;
- var style = '-big';
- readdddonly = $('#default-demo').attr('data-readonly');
- $('#default-demo').raty({
- readOnly: readdddonly,
- cancelOff: dir_theme + 'rs/plugins/raty/images/cancel-off.png',
- cancelOn: dir_theme + 'rs/plugins/raty/images/cancel-on.png',
- // starHalf: dir_theme + 'rs/plugins/raty/images/star-half' + style + '.png',
- // starOff: dir_theme + 'rs/plugins/raty/images/star-off' + style + '.png',
- // starOn: dir_theme + 'rs/plugins/raty/images/star-on' + style + '.png',
-
- starHalf: dir_theme + 'rs/plugins/raty/images/star-half' + style + '.svg',
- starOff: dir_theme + 'rs/plugins/raty/images/star-off.svg',
- starOn: dir_theme + 'rs/plugins/raty/images/star-on.svg',
- half: true,
- number: 5,
- numberMax: 5,
- score: function() {
- return $(this).attr('data-score');
- },
- click: function(score, evt) {
- var game_id = $(this).attr('data-id');
- var rate = $(this).attr('data-score');
- // var url = domain_url + '/rate-game.ajax';
- var url = '/rate-game.ajax';
- var data = {
- 'game_id': game_id,
- 'score': score
- };
- $.ajax({
- type: "POST",
- url: url,
- data: data,
- cache: false,
- success: function(html) {
- var data = $.parseJSON(html);
- $('#countrate').text(data.rate_count + ' votes ');
- $('#averagerate').text(data.rate_average);
- $('#gorgeous-bar').css("width", data.gorgeous + "%");
- $('#gorgeous-bar-value').html(data.gorgeous + "%");
- $('#good-bar').css("width", data.good + "%");
- $('#good-bar-value').html(data.good + "%");
- $('#regular-bar').css("width", data.regular + "%");
- $('#regular-bar-value').html(data.regular + "%");
- $('#poor-bar').css("width", data.poor + "%");
- $('#poor-bar-value').html(data.poor + "%");
- $('#bad-bar').css("width", data.bad + "%");
- $('#bad-bar-value').html(data.bad + "%");
- $(".rating-num").addClass(data.class);
- $(".rate-title").addClass(data.class);
- $(".rate-title").html(data.name);
- $('#default-demo').raty({
- readOnly: true,
- cancelOff: dir_theme + 'rs/plugins/raty/images/cancel-off.png',
- cancelOn: dir_theme + 'rs/plugins/raty/images/cancel-on.png',
- // starHalf: dir_theme + 'rs/plugins/raty/images/star-half' + style + '.png',
- // starOff: dir_theme + 'rs/plugins/raty/images/star-off' + style + '.png',
- // starOn: dir_theme + 'rs/plugins/raty/images/star-on' + style + '.png',
-
- starHalf: dir_theme + 'rs/plugins/raty/images/star-half' + style + '+++.svg',
- starOff: dir_theme + 'rs/plugins/raty/images/star-off.svg',
- starOn: dir_theme + 'rs/plugins/raty/images/star-on+++.svg',
- half: true,
- number: 5,
- numberMax: 5,
- score: score
- });
- $("#default-demo").css("cursor: pointer;");
- },
- error: function() {
- $('#default-demo').raty({
- readOnly: true,
- cancelOff: dir_theme + 'rs/plugins/raty/images/cancel-off.png',
- cancelOn: dir_theme + 'rs/plugins/raty/images/cancel-on.png',
- starHalf: dir_theme + 'rs/plugins/raty/images/star-half' + style + '.png',
- starOff: dir_theme + 'rs/plugins/raty/images/star-off' + style + '.png',
- starOn: dir_theme + 'rs/plugins/raty/images/star-on' + style + '.png',
- half: true,
- number: 5,
- numberMax: 5,
- score: rate,
- });
- }
- });
- }
- });
- }
-</script></div></div></div><div class="player-header__categories"><section class="tags"><div class="tags__items"><div class="tags__item tag"><a class="tag__link" href="/games/crazy-games" title="Crazy Games"><span class="tag__title">Crazy Games</span></a></div><div class="tags__item tag"><a class="tag__link" href="/games/battle-games" title="Battle Games"><span class="tag__title">Battle Games</span></a></div><div class="tags__item tag"><a class="tag__link" href="/games/animal-games" title="Animal Games"><span class="tag__title">Animal Games</span></a></div></div></section></div></div></div><br><section id="hot" class="games games--hot"><div class="games__inner"><div class="area__heading"><p class="area__title title">Play <b>other games</b></p></div><div class=""><div class="g-items card-masonry"><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/kirkaio" title="Kirka.io">Kirka.io</a></div><a class="g-item__thumb" href="/kirkaio" title="Kirka.io"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-18-082123-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="Kirka.io" alt="Kirka.io img"></a></div></div></div><div class="g-items__item_large item large"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/craftnite" title="Craftnite">Craftnite</a></div><a class="g-item__thumb" href="/craftnite" title="Craftnite"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-17-075950-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="Craftnite" alt="Craftnite img"></a></div></div></div><div class="g-items__item_large item large"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/kour" title="Kour">Kour</a></div><a class="g-item__thumb" href="/kour" title="Kour"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-17-080322-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="Kour" alt="Kour img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/zombsroyaleio" title="ZombsRoyale.io">ZombsRoyale.io</a></div><a class="g-item__thumb" href="/zombsroyaleio" title="ZombsRoyale.io"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-17-075914-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="ZombsRoyale.io" alt="ZombsRoyale.io img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/lolbeans" title="Lolbeans">Lolbeans</a></div><a class="g-item__thumb" href="/lolbeans" title="Lolbeans"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-17-075827-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="Lolbeans" alt="Lolbeans img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/goober-dash" title="Goober Dash">Goober Dash</a></div><a class="g-item__thumb" href="/goober-dash" title="Goober Dash"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-16-160305-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="Goober Dash" alt="Goober Dash img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/build-royale" title="Build Royale">Build Royale</a></div><a class="g-item__thumb" href="/build-royale" title="Build Royale"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-17-080155-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="Build Royale" alt="Build Royale img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/fragpunk" title="Fragpunk">Fragpunk</a></div><a class="g-item__thumb" href="/fragpunk" title="Fragpunk"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-16-162016-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="Fragpunk" alt="Fragpunk img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/alien-invaders" title="Alien Invaders">Alien Invaders</a></div><a class="g-item__thumb" href="/alien-invaders" title="Alien Invaders"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-17-080035-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="Alien Invaders" alt="Alien Invaders img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/shell-shockers" title="Shell Shockers">Shell Shockers</a></div><a class="g-item__thumb" href="/shell-shockers" title="Shell Shockers"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/anh-chup-man-hinh-2025-04-17-220801-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="Shell Shockers" alt="Shell Shockers img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/stateio" title="State.io">State.io</a></div><a class="g-item__thumb" href="/stateio" title="State.io"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-18-084020-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="State.io" alt="State.io img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/1v1-lol" title="1v1 LOL">1v1 LOL</a></div><a class="g-item__thumb" href="/1v1-lol" title="1v1 LOL"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/1v1-lol-m300x300.jpg" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="1v1 LOL" alt="1v1 LOL img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/yohohoio" title="YoHoHo.io">YoHoHo.io</a></div><a class="g-item__thumb" href="/yohohoio" title="YoHoHo.io"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-18-100446-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="YoHoHo.io" alt="YoHoHo.io img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/mk48io" title="Mk48.io">Mk48.io</a></div><a class="g-item__thumb" href="/mk48io" title="Mk48.io"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-18-091549-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="Mk48.io" alt="Mk48.io img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/voxiomio" title="Voxiom.io">Voxiom.io</a></div><a class="g-item__thumb" href="/voxiomio" title="Voxiom.io"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-18-083540-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="Voxiom.io" alt="Voxiom.io img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/battle-arena" title="Battle Arena">Battle Arena</a></div><a class="g-item__thumb" href="/battle-arena" title="Battle Arena"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-18-094909-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="Battle Arena" alt="Battle Arena img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/zombie-royale" title="Zombie Royale">Zombie Royale</a></div><a class="g-item__thumb" href="/zombie-royale" title="Zombie Royale"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-18-115637-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="Zombie Royale" alt="Zombie Royale img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/kiomet" title="Kiomet">Kiomet</a></div><a class="g-item__thumb" href="/kiomet" title="Kiomet"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-18-091057-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="Kiomet" alt="Kiomet img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/wizard-masters" title="Wizard Masters">Wizard Masters</a></div><a class="g-item__thumb" href="/wizard-masters" title="Wizard Masters"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-18-101047-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="Wizard Masters" alt="Wizard Masters img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/vengeio" title="Venge.io">Venge.io</a></div><a class="g-item__thumb" href="/vengeio" title="Venge.io"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-18-105425-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="Venge.io" alt="Venge.io img"></a></div></div></div></div></div></div></section></section><section class="area"><div class="area__columns"><div class="area__column area__column--content content"><div class="breadcrumbs"><span class="breadcrumbs__item"><a href="/"><span title="Home">Home</span></a></span><span class="breadcrumbs__item breadcrumbs__delimiter">/</span><span class="breadcrumbs__item"><a href="/games/crazy-games" title="Crazy Games"><span>Crazy Games</span></a></span><span class="breadcrumbs__item breadcrumbs__delimiter">/</span><span class="breadcrumbs__item breadcrumbs__current">Crazy Cattle 3D</span></div>				<br><div class="game__content "><h2 style="text-align: justify;">Crazy Cattle 3D: The Viral Sheep Brawl on the Internet</h2><p style="text-align: justify;">In the fast-paced world of <em>indie gaming</em>, few titles have captured the internet’s imagination like <a title="Crazy Cattle 3D" href="https://crazycattle3d.io/" target="_blank"><strong>Crazy Cattle 3D</strong></a>. Released on April 12, 2025, by developer <em><a title="Anna (@4nn4t4t on X)" href="https://x.com/4nn4t4t" target="_blank">Anna (@4nn4t4t on X)</a></em>, this chaotic, physics-based battle royale has exploded in popularity on <em>itch.io</em>, boasting a perfect 5-star rating from 34 reviews and fueling a social media frenzy. Don’t let the name fool you—this game is all about sheep, not cattle, with numbered sheep battling in a hilarious, slapstick showdown. Here’s why this game is the absurd, addictive experience you need to try.</p><h3 style="text-align: justify;">What is Crazy Cattle 3D Game?</h3><p style="text-align: justify;"><a title="Crazy Cattle 3D" href="https://crazycattle3d.io/" target="_blank"><strong>Crazy Cattle 3D</strong></a> is an independent&nbsp;<em><a title="other battle royale games" href="https://crazycattle3d.io/games/battle-games" target="_blank">battle royale game</a></em> where you play as an explosive sheep whose goal is to be the last sheep standing. Unlike traditional battle royale games that focus on weapons and resources, <strong>Crazy Cattle 3D's core gameplay</strong> revolves around physics-based movement, momentum, and strategic collisions. You navigate diverse terrains and eliminate other crazy sheep by bumping into them and knocking them off the map or into hazards. It's known for its simple premise, challenging gameplay, and often hilarious, chaotic outcomes.</p><h3 style="text-align: justify;">Crazy Cattle 3D Tutorial</h3><h4 style="text-align: justify;">How to play Crazy Cattle 3D Online?</h4><ul style="text-align: justify;"><li>First go to website:&nbsp;<a title="https://crazycattle3d.io/" href="https://crazycattle3d.io/" target="_blank">https://crazycattle3d.io/</a>&nbsp;via your PC/Mobile Browser.</li><li>Click <strong>Play Now</strong> to load Crazy Cattle 3D game.</li><li>Use Mouse and WASD key to control the <strong>crazy sheep 3d.</strong></li></ul><h4 style="text-align: justify;"><span>How to play Crazy Cattle 3D&nbsp;Unblocked?</span></h4><p style="text-align: justify;"><span>To play <strong>Crazy Cattle 3D Unblocked</strong>, a viral indie battle royale featuring sheep, try a <strong>VPN</strong> like <strong>NordVPN</strong>. Ensure a decent PC (Intel Core i5, 8GB RAM) as low-end devices may lag or miss textures. Click the game window, go fullscreen, and master the physics-based chaos to be the last sheep standing. Stick to official sites to avoid malware, and note that mobile and multiplayer aren’t supported yet.</span></p><h4 style="text-align: justify;">How to download&nbsp;<span>Crazy Cattle 3D</span>&nbsp;game?</h4><ul style="text-align: justify;"><li>You will be presented with options to download the game for different operating systems</li><li>Select the version appropriate for your operating system and the download will begin.<ul><li><strong>Download Crazy Cattle 3d for Windows</strong>: The file is named&nbsp;<strong><a title="Crazy Cattle 3D for Windows" href="https://crazycattle3d.io/game/dlc/crazyattle3d.zip" target="_blank">CrazyCattle3D.zip</a></strong> and has a file size of 50 MB.</li><li><strong>Download Crazy Cattle 3d for MacOS</strong>: The file is named&nbsp;<strong><a title="Crazy for Cattle 3D for Mac OS" href="https://crazycattle3d.io/game/dlc/crazyattle3dmac.zip" target="_blank">CrazyCattle3DMac.zip</a> </strong>and has a file size of 78 MB.</li><li><strong>Download Crazy Cattle 3d for Linux</strong>: The file is named&nbsp;<strong><a title="Crazy Cattle 3D for Linux OS" href="https://crazycattle3d.io/game/dlc/crazyattle3dlinux.zip" target="_blank">CrazyCattle3DLinux.zip</a></strong> and has a file size of 44 MB.</li></ul></li><li>Once the download is complete, launch the <strong>crazycattle3d game</strong> to start playing.</li></ul><h4 style="text-align: justify;">Is Crazy Cattle 3D free &amp; available for multiplayer?</h4><p style="text-align: justify;">Currently, <strong>Crazy Cattle 3D</strong> is free primarily a single-player experience where players compete against AI-controlled sheep. However, the independent developer has mentioned considering the implementation of multiplayer functionality in future updates based on community feedback. The chaotic nature of the game's physics-based combat suggests that a multiplayer mode could offer an even more unpredictable and entertaining experience. Players should follow the game's official channels for any news regarding potential multiplayer additions.</p><h2 style="text-align: justify;">What makes&nbsp;crazycattle3d&nbsp;unique?</h2><p style="text-align: justify;">Several factors distinguish <strong>Crazy Cattle 3D</strong>. Its primary focus on physics-based sheep locomotion and momentum is a significant departure from typical shooter-based or resource-gathering battle royales. There are no weapons to collect or inventories to manage; success relies purely on player skill in movement and strategic collisions. The crazy game's absurd premise of explosive sheep battling it out in global landscapes also contributes to its unique and often humorous appeal. Furthermore, its challenging difficulty level and the lack of in-game upgrades mean that player improvement is solely based on mastering the core mechanics.</p><h2>Why Crazy Cattle 3D game Trending?</h2><p style="text-align: justify;">Its mix of absurd humor, challenging mechanics, and viral social media presence has made it a standout. Fans call <strong>Crazy Cattle 3D </strong>is<strong>&nbsp;</strong>a “<em>once-in-a-century</em>” game, with <strong>IGN</strong> reportedly giving it a 10/10 (though this claim from <em>itch.io</em> comments lacks direct confirmation). The community is active, requesting features like multiplayer and mobile ports, and its quirky charm has drawn comparisons to <strong>Goat Simulator</strong> but with a <strong>battle royale twist</strong>.</p><p style="text-align: justify;">If you’re looking to try <strong>Crazy Cattle 3D online&nbsp;&amp; free</strong>, expect a wild, hilarious ride—but maybe check your PC specs first! Have you played it yet, or are you planning to?</p>														</div></div><div class="area__column area__column--side"><div id="comments" class="comments"><h2 class="comment-title">Discuss: Crazy Cattle 3D</h2><div id="append-comment"><!-- Đã sửa tên các thẻ có class và css: icon + btn => icon1 + btn1 
- => sửa cả bên comment_paging.php -->
-<div class="comment-company">
- <div id="comments_area">
- <div class="comment_loading"></div>
- <div class="comment-header">
- <div class="comment-count" style="font-size: 18px;">
- Comments<span id="comment_count">(38)</span>
- </div>
- <div class="comment-sort">
- <label for="sort_by">Sort by</label>
- <select id="sort_by" class="input-sm ">
- <option value="newest">Newest</option>
- <option value="oldest">Oldest</option>
- <option value="popular">Popular</option>
- </select>
- </div>
- </div>
- <div id="list_comment"> <div id="comment_166" class="replyWrap clearAfter"><div class="listProfile"><div class="img img-thumbnail">K</div><span class="user">Kyr Nimrod </span><span class="user">3 hour ago</span></div><div class="listContent"><div class="comment--content">THIS GAME IS TOO GOOD... IT SHOULD HAVE CRAZY CATTLE 3D 2!</div><div class="control-action"><a class="icon1 comment" href="javascript:;" onclick="reply_to(166);
- return false;" title="Add a comment to this comment" rel="nofollow"><svg width="16px" height="16px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.2929 13.2929C13.9024 13.6834 13.9024 14.3166 14.2929 14.7071C14.6834 15.0976 15.3166 15.0976 15.7071 14.7071L20.7071 9.70711C21.0976 9.31658 21.0976 8.68342 20.7071 8.29289L15.7071 3.29289C15.3166 2.90237 14.6834 2.90237 14.2929 3.29289C13.9024 3.68342 13.9024 4.31658 14.2929 4.70711L17.5858 8H8C6.67392 8 5.40215 8.52678 4.46447 9.46447C3.52678 10.4021 3 11.6739 3 13V20C3 20.5523 3.44771 21 4 21C4.55229 21 5 20.5523 5 20V13C5 12.2044 5.31607 11.4413 5.87868 10.8787C6.44129 10.3161 7.20435 10 8 10H17.5858L14.2929 13.2929Z"></path></svg><b class="comment--reply">Reply</b></a><a class="icon1 vote comment_vote_row_166 voteUp" href="javascript:;" onclick="comment_vote(166, 'up');
- return false;" title="Vote this comment up (helpful)" rel="nofollow"><svg width="16px" height="16px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="style=fill"><g id="like"><path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M15.9977 5.63891C16.2695 4.34931 15.433 3.00969 14.2102 2.59462C13.6171 2.37633 12.9892 2.4252 12.4662 2.60499C11.9449 2.78419 11.4461 3.12142 11.1369 3.58441L11.136 3.58573L7.49506 9.00272C8.05104 9.29585 8.43005 9.87954 8.43005 10.5518V21.3018H6.91003V21.3018H16.6801C18.2938 21.3018 19.2028 20.2977 19.8943 19.202C20.6524 18.0009 21.1453 16.7211 21.5116 15.5812C21.6808 15.0546 21.8252 14.5503 21.9547 14.0984L21.9863 13.9881C22.126 13.5007 22.2457 13.0904 22.366 12.7549C22.698 11.8292 22.5933 10.9072 22.067 10.2072C21.5476 9.5166 20.7005 9.15175 19.76 9.15175H15.76C15.6702 9.15175 15.6017 9.11544 15.5599 9.06803C15.5238 9.02716 15.4831 8.95058 15.502 8.81171L15.9977 5.63891Z" fill=""></path><path id="rec" d="M2.18005 10.6199C2.18005 10.03 2.62777 9.55176 3.18005 9.55176H6.68005C7.23234 9.55176 7.68005 10.03 7.68005 10.6199V21.3018H3.18005C2.62777 21.3018 2.18005 20.8235 2.18005 20.2336V10.6199Z" fill=""></path></g></g></svg><b class="voteUp" id="comment_voteup_166">5</b></a><a class="icon1 vote comment_vote_row_166 voteDown" href="javascript:;" onclick="comment_vote(166, 'down');
- return false;" title="Vote this comment down (not helpful)" rel="nofollow"><svg width="16px" height="16px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="style=fill"><g id="like"><path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M15.9977 5.63891C16.2695 4.34931 15.433 3.00969 14.2102 2.59462C13.6171 2.37633 12.9892 2.4252 12.4662 2.60499C11.9449 2.78419 11.4461 3.12142 11.1369 3.58441L11.136 3.58573L7.49506 9.00272C8.05104 9.29585 8.43005 9.87954 8.43005 10.5518V21.3018H6.91003V21.3018H16.6801C18.2938 21.3018 19.2028 20.2977 19.8943 19.202C20.6524 18.0009 21.1453 16.7211 21.5116 15.5812C21.6808 15.0546 21.8252 14.5503 21.9547 14.0984L21.9863 13.9881C22.126 13.5007 22.2457 13.0904 22.366 12.7549C22.698 11.8292 22.5933 10.9072 22.067 10.2072C21.5476 9.5166 20.7005 9.15175 19.76 9.15175H15.76C15.6702 9.15175 15.6017 9.11544 15.5599 9.06803C15.5238 9.02716 15.4831 8.95058 15.502 8.81171L15.9977 5.63891Z" fill=""></path><path id="rec" d="M2.18005 10.6199C2.18005 10.03 2.62777 9.55176 3.18005 9.55176H6.68005C7.23234 9.55176 7.68005 10.03 7.68005 10.6199V21.3018H3.18005C2.62777 21.3018 2.18005 20.8235 2.18005 20.2336V10.6199Z" fill=""></path></g></g></svg><b class="voteDown" id="comment_votedown_166">4</b></a></div></div></div><div id="comment_162" class="replyWrap clearAfter"><div class="listProfile"><div class="img img-thumbnail">A</div><span class="user">ALL HAIL CRAZY CATTLE</span><span class="user">3 hour ago</span></div><div class="listContent"><div class="comment--content">absolute masterpiece</div><div class="control-action"><a class="icon1 comment" href="javascript:;" onclick="reply_to(162);
- return false;" title="Add a comment to this comment" rel="nofollow"><svg width="16px" height="16px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.2929 13.2929C13.9024 13.6834 13.9024 14.3166 14.2929 14.7071C14.6834 15.0976 15.3166 15.0976 15.7071 14.7071L20.7071 9.70711C21.0976 9.31658 21.0976 8.68342 20.7071 8.29289L15.7071 3.29289C15.3166 2.90237 14.6834 2.90237 14.2929 3.29289C13.9024 3.68342 13.9024 4.31658 14.2929 4.70711L17.5858 8H8C6.67392 8 5.40215 8.52678 4.46447 9.46447C3.52678 10.4021 3 11.6739 3 13V20C3 20.5523 3.44771 21 4 21C4.55229 21 5 20.5523 5 20V13C5 12.2044 5.31607 11.4413 5.87868 10.8787C6.44129 10.3161 7.20435 10 8 10H17.5858L14.2929 13.2929Z"></path></svg><b class="comment--reply">Reply</b></a><a class="icon1 vote comment_vote_row_162 voteUp" href="javascript:;" onclick="comment_vote(162, 'up');
- return false;" title="Vote this comment up (helpful)" rel="nofollow"><svg width="16px" height="16px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="style=fill"><g id="like"><path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M15.9977 5.63891C16.2695 4.34931 15.433 3.00969 14.2102 2.59462C13.6171 2.37633 12.9892 2.4252 12.4662 2.60499C11.9449 2.78419 11.4461 3.12142 11.1369 3.58441L11.136 3.58573L7.49506 9.00272C8.05104 9.29585 8.43005 9.87954 8.43005 10.5518V21.3018H6.91003V21.3018H16.6801C18.2938 21.3018 19.2028 20.2977 19.8943 19.202C20.6524 18.0009 21.1453 16.7211 21.5116 15.5812C21.6808 15.0546 21.8252 14.5503 21.9547 14.0984L21.9863 13.9881C22.126 13.5007 22.2457 13.0904 22.366 12.7549C22.698 11.8292 22.5933 10.9072 22.067 10.2072C21.5476 9.5166 20.7005 9.15175 19.76 9.15175H15.76C15.6702 9.15175 15.6017 9.11544 15.5599 9.06803C15.5238 9.02716 15.4831 8.95058 15.502 8.81171L15.9977 5.63891Z" fill=""></path><path id="rec" d="M2.18005 10.6199C2.18005 10.03 2.62777 9.55176 3.18005 9.55176H6.68005C7.23234 9.55176 7.68005 10.03 7.68005 10.6199V21.3018H3.18005C2.62777 21.3018 2.18005 20.8235 2.18005 20.2336V10.6199Z" fill=""></path></g></g></svg><b class="voteUp" id="comment_voteup_162">6</b></a><a class="icon1 vote comment_vote_row_162 voteDown" href="javascript:;" onclick="comment_vote(162, 'down');
- return false;" title="Vote this comment down (not helpful)" rel="nofollow"><svg width="16px" height="16px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="style=fill"><g id="like"><path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M15.9977 5.63891C16.2695 4.34931 15.433 3.00969 14.2102 2.59462C13.6171 2.37633 12.9892 2.4252 12.4662 2.60499C11.9449 2.78419 11.4461 3.12142 11.1369 3.58441L11.136 3.58573L7.49506 9.00272C8.05104 9.29585 8.43005 9.87954 8.43005 10.5518V21.3018H6.91003V21.3018H16.6801C18.2938 21.3018 19.2028 20.2977 19.8943 19.202C20.6524 18.0009 21.1453 16.7211 21.5116 15.5812C21.6808 15.0546 21.8252 14.5503 21.9547 14.0984L21.9863 13.9881C22.126 13.5007 22.2457 13.0904 22.366 12.7549C22.698 11.8292 22.5933 10.9072 22.067 10.2072C21.5476 9.5166 20.7005 9.15175 19.76 9.15175H15.76C15.6702 9.15175 15.6017 9.11544 15.5599 9.06803C15.5238 9.02716 15.4831 8.95058 15.502 8.81171L15.9977 5.63891Z" fill=""></path><path id="rec" d="M2.18005 10.6199C2.18005 10.03 2.62777 9.55176 3.18005 9.55176H6.68005C7.23234 9.55176 7.68005 10.03 7.68005 10.6199V21.3018H3.18005C2.62777 21.3018 2.18005 20.8235 2.18005 20.2336V10.6199Z" fill=""></path></g></g></svg><b class="voteDown" id="comment_votedown_162">1</b></a></div></div></div><div id="comment_158" class="replyWrap clearAfter"><div class="listProfile"><div class="img img-thumbnail">c</div><span class="user">crazycattle</span><span class="user">4 hour ago</span></div><div class="listContent"><div class="comment--content">this is the best game i played in my entire life</div><div class="control-action"><a class="icon1 comment" href="javascript:;" onclick="reply_to(158);
- return false;" title="Add a comment to this comment" rel="nofollow"><svg width="16px" height="16px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.2929 13.2929C13.9024 13.6834 13.9024 14.3166 14.2929 14.7071C14.6834 15.0976 15.3166 15.0976 15.7071 14.7071L20.7071 9.70711C21.0976 9.31658 21.0976 8.68342 20.7071 8.29289L15.7071 3.29289C15.3166 2.90237 14.6834 2.90237 14.2929 3.29289C13.9024 3.68342 13.9024 4.31658 14.2929 4.70711L17.5858 8H8C6.67392 8 5.40215 8.52678 4.46447 9.46447C3.52678 10.4021 3 11.6739 3 13V20C3 20.5523 3.44771 21 4 21C4.55229 21 5 20.5523 5 20V13C5 12.2044 5.31607 11.4413 5.87868 10.8787C6.44129 10.3161 7.20435 10 8 10H17.5858L14.2929 13.2929Z"></path></svg><b class="comment--reply">Reply</b></a><a class="icon1 vote comment_vote_row_158 voteUp" href="javascript:;" onclick="comment_vote(158, 'up');
- return false;" title="Vote this comment up (helpful)" rel="nofollow"><svg width="16px" height="16px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="style=fill"><g id="like"><path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M15.9977 5.63891C16.2695 4.34931 15.433 3.00969 14.2102 2.59462C13.6171 2.37633 12.9892 2.4252 12.4662 2.60499C11.9449 2.78419 11.4461 3.12142 11.1369 3.58441L11.136 3.58573L7.49506 9.00272C8.05104 9.29585 8.43005 9.87954 8.43005 10.5518V21.3018H6.91003V21.3018H16.6801C18.2938 21.3018 19.2028 20.2977 19.8943 19.202C20.6524 18.0009 21.1453 16.7211 21.5116 15.5812C21.6808 15.0546 21.8252 14.5503 21.9547 14.0984L21.9863 13.9881C22.126 13.5007 22.2457 13.0904 22.366 12.7549C22.698 11.8292 22.5933 10.9072 22.067 10.2072C21.5476 9.5166 20.7005 9.15175 19.76 9.15175H15.76C15.6702 9.15175 15.6017 9.11544 15.5599 9.06803C15.5238 9.02716 15.4831 8.95058 15.502 8.81171L15.9977 5.63891Z" fill=""></path><path id="rec" d="M2.18005 10.6199C2.18005 10.03 2.62777 9.55176 3.18005 9.55176H6.68005C7.23234 9.55176 7.68005 10.03 7.68005 10.6199V21.3018H3.18005C2.62777 21.3018 2.18005 20.8235 2.18005 20.2336V10.6199Z" fill=""></path></g></g></svg><b class="voteUp" id="comment_voteup_158">3</b></a><a class="icon1 vote comment_vote_row_158 voteDown" href="javascript:;" onclick="comment_vote(158, 'down');
- return false;" title="Vote this comment down (not helpful)" rel="nofollow"><svg width="16px" height="16px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="style=fill"><g id="like"><path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M15.9977 5.63891C16.2695 4.34931 15.433 3.00969 14.2102 2.59462C13.6171 2.37633 12.9892 2.4252 12.4662 2.60499C11.9449 2.78419 11.4461 3.12142 11.1369 3.58441L11.136 3.58573L7.49506 9.00272C8.05104 9.29585 8.43005 9.87954 8.43005 10.5518V21.3018H6.91003V21.3018H16.6801C18.2938 21.3018 19.2028 20.2977 19.8943 19.202C20.6524 18.0009 21.1453 16.7211 21.5116 15.5812C21.6808 15.0546 21.8252 14.5503 21.9547 14.0984L21.9863 13.9881C22.126 13.5007 22.2457 13.0904 22.366 12.7549C22.698 11.8292 22.5933 10.9072 22.067 10.2072C21.5476 9.5166 20.7005 9.15175 19.76 9.15175H15.76C15.6702 9.15175 15.6017 9.11544 15.5599 9.06803C15.5238 9.02716 15.4831 8.95058 15.502 8.81171L15.9977 5.63891Z" fill=""></path><path id="rec" d="M2.18005 10.6199C2.18005 10.03 2.62777 9.55176 3.18005 9.55176H6.68005C7.23234 9.55176 7.68005 10.03 7.68005 10.6199V21.3018H3.18005C2.62777 21.3018 2.18005 20.8235 2.18005 20.2336V10.6199Z" fill=""></path></g></g></svg><b class="voteDown" id="comment_votedown_158">1</b></a></div></div></div><div id="comment_149" class="replyWrap clearAfter"><div class="listProfile"><div class="img img-thumbnail">S</div><span class="user">Sheep number 55</span><span class="user">16 hour ago</span></div><div class="listContent"><div class="comment--content">I love this very much and appreciate the detail to this art of a game</div><div class="control-action"><a class="icon1 comment" href="javascript:;" onclick="reply_to(149);
- return false;" title="Add a comment to this comment" rel="nofollow"><svg width="16px" height="16px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.2929 13.2929C13.9024 13.6834 13.9024 14.3166 14.2929 14.7071C14.6834 15.0976 15.3166 15.0976 15.7071 14.7071L20.7071 9.70711C21.0976 9.31658 21.0976 8.68342 20.7071 8.29289L15.7071 3.29289C15.3166 2.90237 14.6834 2.90237 14.2929 3.29289C13.9024 3.68342 13.9024 4.31658 14.2929 4.70711L17.5858 8H8C6.67392 8 5.40215 8.52678 4.46447 9.46447C3.52678 10.4021 3 11.6739 3 13V20C3 20.5523 3.44771 21 4 21C4.55229 21 5 20.5523 5 20V13C5 12.2044 5.31607 11.4413 5.87868 10.8787C6.44129 10.3161 7.20435 10 8 10H17.5858L14.2929 13.2929Z"></path></svg><b class="comment--reply">Reply</b></a><a class="icon1 vote comment_vote_row_149 voteUp" href="javascript:;" onclick="comment_vote(149, 'up');
- return false;" title="Vote this comment up (helpful)" rel="nofollow"><svg width="16px" height="16px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="style=fill"><g id="like"><path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M15.9977 5.63891C16.2695 4.34931 15.433 3.00969 14.2102 2.59462C13.6171 2.37633 12.9892 2.4252 12.4662 2.60499C11.9449 2.78419 11.4461 3.12142 11.1369 3.58441L11.136 3.58573L7.49506 9.00272C8.05104 9.29585 8.43005 9.87954 8.43005 10.5518V21.3018H6.91003V21.3018H16.6801C18.2938 21.3018 19.2028 20.2977 19.8943 19.202C20.6524 18.0009 21.1453 16.7211 21.5116 15.5812C21.6808 15.0546 21.8252 14.5503 21.9547 14.0984L21.9863 13.9881C22.126 13.5007 22.2457 13.0904 22.366 12.7549C22.698 11.8292 22.5933 10.9072 22.067 10.2072C21.5476 9.5166 20.7005 9.15175 19.76 9.15175H15.76C15.6702 9.15175 15.6017 9.11544 15.5599 9.06803C15.5238 9.02716 15.4831 8.95058 15.502 8.81171L15.9977 5.63891Z" fill=""></path><path id="rec" d="M2.18005 10.6199C2.18005 10.03 2.62777 9.55176 3.18005 9.55176H6.68005C7.23234 9.55176 7.68005 10.03 7.68005 10.6199V21.3018H3.18005C2.62777 21.3018 2.18005 20.8235 2.18005 20.2336V10.6199Z" fill=""></path></g></g></svg><b class="voteUp" id="comment_voteup_149">2</b></a><a class="icon1 vote comment_vote_row_149 voteDown" href="javascript:;" onclick="comment_vote(149, 'down');
- return false;" title="Vote this comment down (not helpful)" rel="nofollow"><svg width="16px" height="16px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="style=fill"><g id="like"><path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M15.9977 5.63891C16.2695 4.34931 15.433 3.00969 14.2102 2.59462C13.6171 2.37633 12.9892 2.4252 12.4662 2.60499C11.9449 2.78419 11.4461 3.12142 11.1369 3.58441L11.136 3.58573L7.49506 9.00272C8.05104 9.29585 8.43005 9.87954 8.43005 10.5518V21.3018H6.91003V21.3018H16.6801C18.2938 21.3018 19.2028 20.2977 19.8943 19.202C20.6524 18.0009 21.1453 16.7211 21.5116 15.5812C21.6808 15.0546 21.8252 14.5503 21.9547 14.0984L21.9863 13.9881C22.126 13.5007 22.2457 13.0904 22.366 12.7549C22.698 11.8292 22.5933 10.9072 22.067 10.2072C21.5476 9.5166 20.7005 9.15175 19.76 9.15175H15.76C15.6702 9.15175 15.6017 9.11544 15.5599 9.06803C15.5238 9.02716 15.4831 8.95058 15.502 8.81171L15.9977 5.63891Z" fill=""></path><path id="rec" d="M2.18005 10.6199C2.18005 10.03 2.62777 9.55176 3.18005 9.55176H6.68005C7.23234 9.55176 7.68005 10.03 7.68005 10.6199V21.3018H3.18005C2.62777 21.3018 2.18005 20.8235 2.18005 20.2336V10.6199Z" fill=""></path></g></g></svg><b class="voteDown" id="comment_votedown_149">1</b></a></div></div></div><div id="comment_148" class="replyWrap clearAfter"><div class="listProfile"><div class="img img-thumbnail">s</div><span class="user">sky</span><span class="user">18 hour ago</span></div><div class="listContent"><div class="comment--content">Idk if this is normal but when I get eliminated its stuck on you lost! and same with you won! ( just won my first match :D )</div><div class="control-action"><a class="icon1 comment" href="javascript:;" onclick="reply_to(148);
- return false;" title="Add a comment to this comment" rel="nofollow"><svg width="16px" height="16px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.2929 13.2929C13.9024 13.6834 13.9024 14.3166 14.2929 14.7071C14.6834 15.0976 15.3166 15.0976 15.7071 14.7071L20.7071 9.70711C21.0976 9.31658 21.0976 8.68342 20.7071 8.29289L15.7071 3.29289C15.3166 2.90237 14.6834 2.90237 14.2929 3.29289C13.9024 3.68342 13.9024 4.31658 14.2929 4.70711L17.5858 8H8C6.67392 8 5.40215 8.52678 4.46447 9.46447C3.52678 10.4021 3 11.6739 3 13V20C3 20.5523 3.44771 21 4 21C4.55229 21 5 20.5523 5 20V13C5 12.2044 5.31607 11.4413 5.87868 10.8787C6.44129 10.3161 7.20435 10 8 10H17.5858L14.2929 13.2929Z"></path></svg><b class="comment--reply">Reply</b></a><a class="icon1 vote comment_vote_row_148 voteUp" href="javascript:;" onclick="comment_vote(148, 'up');
- return false;" title="Vote this comment up (helpful)" rel="nofollow"><svg width="16px" height="16px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="style=fill"><g id="like"><path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M15.9977 5.63891C16.2695 4.34931 15.433 3.00969 14.2102 2.59462C13.6171 2.37633 12.9892 2.4252 12.4662 2.60499C11.9449 2.78419 11.4461 3.12142 11.1369 3.58441L11.136 3.58573L7.49506 9.00272C8.05104 9.29585 8.43005 9.87954 8.43005 10.5518V21.3018H6.91003V21.3018H16.6801C18.2938 21.3018 19.2028 20.2977 19.8943 19.202C20.6524 18.0009 21.1453 16.7211 21.5116 15.5812C21.6808 15.0546 21.8252 14.5503 21.9547 14.0984L21.9863 13.9881C22.126 13.5007 22.2457 13.0904 22.366 12.7549C22.698 11.8292 22.5933 10.9072 22.067 10.2072C21.5476 9.5166 20.7005 9.15175 19.76 9.15175H15.76C15.6702 9.15175 15.6017 9.11544 15.5599 9.06803C15.5238 9.02716 15.4831 8.95058 15.502 8.81171L15.9977 5.63891Z" fill=""></path><path id="rec" d="M2.18005 10.6199C2.18005 10.03 2.62777 9.55176 3.18005 9.55176H6.68005C7.23234 9.55176 7.68005 10.03 7.68005 10.6199V21.3018H3.18005C2.62777 21.3018 2.18005 20.8235 2.18005 20.2336V10.6199Z" fill=""></path></g></g></svg><b class="voteUp" id="comment_voteup_148">3</b></a><a class="icon1 vote comment_vote_row_148 voteDown" href="javascript:;" onclick="comment_vote(148, 'down');
- return false;" title="Vote this comment down (not helpful)" rel="nofollow"><svg width="16px" height="16px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="style=fill"><g id="like"><path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M15.9977 5.63891C16.2695 4.34931 15.433 3.00969 14.2102 2.59462C13.6171 2.37633 12.9892 2.4252 12.4662 2.60499C11.9449 2.78419 11.4461 3.12142 11.1369 3.58441L11.136 3.58573L7.49506 9.00272C8.05104 9.29585 8.43005 9.87954 8.43005 10.5518V21.3018H6.91003V21.3018H16.6801C18.2938 21.3018 19.2028 20.2977 19.8943 19.202C20.6524 18.0009 21.1453 16.7211 21.5116 15.5812C21.6808 15.0546 21.8252 14.5503 21.9547 14.0984L21.9863 13.9881C22.126 13.5007 22.2457 13.0904 22.366 12.7549C22.698 11.8292 22.5933 10.9072 22.067 10.2072C21.5476 9.5166 20.7005 9.15175 19.76 9.15175H15.76C15.6702 9.15175 15.6017 9.11544 15.5599 9.06803C15.5238 9.02716 15.4831 8.95058 15.502 8.81171L15.9977 5.63891Z" fill=""></path><path id="rec" d="M2.18005 10.6199C2.18005 10.03 2.62777 9.55176 3.18005 9.55176H6.68005C7.23234 9.55176 7.68005 10.03 7.68005 10.6199V21.3018H3.18005C2.62777 21.3018 2.18005 20.8235 2.18005 20.2336V10.6199Z" fill=""></path></g></g></svg><b class="voteDown" id="comment_votedown_148">3</b></a></div></div></div><a href="http://crazycattle3d.io/?page=2&amp;limit=5&amp;sort=newest" class="btn1 btn-primary form-control" data-url="http://crazycattle3d.io/" id="load_more_comment" data-page="2" data-limit="5" data-sort="newest" title="Load more">Load more 5 comments</a></div>
- <div class="comment-load-more" style="display: none;"></div>
- <div class="make-comment">
- <form id="comment_form" class="form-group" novalidate="novalidate">
- <div class="row">
- <!-- <div class="col-md-12 comment-notes">
- <span id="email-notes">Your email address will not be published. Required fields are marked <span class="required">*</span>.</span>
- </div> -->
- <div class="col-md-12" id="comment_errors"></div>
- <div class="col-md-6">
- <input id="comment_author" name="comment_author" class="form-control" type="text" value="" size="30" maxlength="50" placeholder="Name" autocomplete="off">
- </div>
- <div class="col-md-6">
- <input id="comment_email" name="comment_email" type="input" value="" size="30" class="form-control" maxlength="100" placeholder="Email" autocomplete="off">
- </div>
- <div class="col-md-12">
- <textarea id="comment_content" name="comment_content" class="form-control" cols="45" rows="3" maxlength="65525" placeholder="Content"></textarea>
- </div>
- <div class="col-md-12" style="padding-top:10px;padding-bottom:10px">
- <input id="commentChecked" type="checkbox" name="commentChecked">
- <label for="commentChecked" style="display:unset!important;cursor:pointer;" class="commentChecked-text">I'd read and agree to the terms and conditions.</label>
- </div>
- <div class="col-md-12 pull-center" style="padding-bottom: 10px;">
- <input name="submit" type="submit" class="submit btn1 btn-primary" value="Comment">
- <input type="hidden" name="parent_id" id="parent_id" value="0">
- <input type="button" onclick="reply_all(); return false;" id="btn_cancel" class="submit btn1 btn-primary pull-right hidden" value="Cancel">
- <!-- <p id="msg"> Thank you for commenting. Please leave constructive comments, respect other people’s opinions, and stay on topic <span class="required">*</span>.</p> -->
- </div>
- </div>
- </form>
- </div>
- <script>
- jQuery("#go_to_comment").click(function() {
- jQuery("html, body").animate({
- scrollTop: jQuery("#comment_form").offset().top
- }, 1000);
- });
- jQuery("#comment_form").validate({
- focusInvalid: false,
- onfocusout: false,
- errorElement: "div",
- errorPlacement: function(error, element) {
- error.appendTo("div#comment_errors");
- },
- ignore: ".ignore",
- rules: {
- "comment_content": {
- required: true,
- maxlength: 65525
- },
- "comment_author": {
- required: true,
- maxlength: 50
- },
- "comment_email": {
- required: true,
- email: true,
- maxlength: 100
- },
- "commentChecked": {
- required: true
- }
- },
- messages: {
- "comment_content": {
- required: "Please type your comment!",
- maxlength: ""
- },
- "comment_author": {
- required: "Please type your name!",
- maxlength: ""
- },
- "comment_email": {
- required: "Please type your email",
- email: "Check your email is not exactly!",
- maxlength: ""
- },
- "commentChecked": {
- required: "Please agree to the terms and conditions before comment."
- }
- },
- submitHandler: function() {
- console.log('here');
- jQuery(".comment_loading").show();
- var question_ajax = "/make-comment.ajax";
- var content = jQuery("#comment_content").val();
- var author = jQuery("#comment_author").val();
- var email = jQuery("#comment_email").val();;
- var website = jQuery("#comment_website").val();
- var parent_id = jQuery("#parent_id").val();
- var metadataload = {};
- metadataload.content = content;
- metadataload.author = author;
- metadataload.email = email;
- metadataload.website = website;
- metadataload.parent_id = parent_id;
- metadataload.related_id = parseInt("0");
- metadataload.related_url = "http://crazycattle3d.io/";
- jQuery.ajax({
- url: question_ajax,
- data: metadataload,
- type: 'POST',
- success: function(data) {
- jQuery(".comment_loading").hide();
- if (data != '') {
- var result = jQuery.parseJSON(data);
- if (result.result === true) {
- var comment_data = result.comment;
- var str_comment = "";
- if (comment_data.parent_id == 0) {
- str_comment = `<div id="comment_${comment_data.id}" class="replyWrap your_comment clearAfter">
- <div class="listProfile">
- <div class="img img-thumbnail">${comment_data.author.charAt(0)}</div>
- <span class="user">${comment_data.author}</span>
- <span class="user">${comment_data.date}</span>
- </div>
- <div class="listContent">
- <div class="comment--content">${comment_data.content}</div>
- <div class="control-action">
- <a class="icon1 comment" href="javascript:;" onclick="reply_to(${comment_data.id});
- return false;" title="Add a comment to this comment" rel="nofollow">
- <svg width="16px" height="16px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
- <path d="M14.2929 13.2929C13.9024 13.6834 13.9024 14.3166 14.2929 14.7071C14.6834 15.0976 15.3166 15.0976 15.7071 14.7071L20.7071 9.70711C21.0976 9.31658 21.0976 8.68342 20.7071 8.29289L15.7071 3.29289C15.3166 2.90237 14.6834 2.90237 14.2929 3.29289C13.9024 3.68342 13.9024 4.31658 14.2929 4.70711L17.5858 8H8C6.67392 8 5.40215 8.52678 4.46447 9.46447C3.52678 10.4021 3 11.6739 3 13V20C3 20.5523 3.44771 21 4 21C4.55229 21 5 20.5523 5 20V13C5 12.2044 5.31607 11.4413 5.87868 10.8787C6.44129 10.3161 7.20435 10 8 10H17.5858L14.2929 13.2929Z" ></path>
- </svg>
- <b class="comment--reply">Reply</b>
- </a>
- <a class="icon1 vote comment_vote_row_${comment_data.id} voteUp" href="javascript:;" onclick="comment_vote(, 'up');
- return false;" title="Vote this comment up (helpful)" rel="nofollow">
- <svg width="16px" height="16px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
- <g id="style=fill">
- <g id="like">
- <path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M15.9977 5.63891C16.2695 4.34931 15.433 3.00969 14.2102 2.59462C13.6171 2.37633 12.9892 2.4252 12.4662 2.60499C11.9449 2.78419 11.4461 3.12142 11.1369 3.58441L11.136 3.58573L7.49506 9.00272C8.05104 9.29585 8.43005 9.87954 8.43005 10.5518V21.3018H6.91003V21.3018H16.6801C18.2938 21.3018 19.2028 20.2977 19.8943 19.202C20.6524 18.0009 21.1453 16.7211 21.5116 15.5812C21.6808 15.0546 21.8252 14.5503 21.9547 14.0984L21.9863 13.9881C22.126 13.5007 22.2457 13.0904 22.366 12.7549C22.698 11.8292 22.5933 10.9072 22.067 10.2072C21.5476 9.5166 20.7005 9.15175 19.76 9.15175H15.76C15.6702 9.15175 15.6017 9.11544 15.5599 9.06803C15.5238 9.02716 15.4831 8.95058 15.502 8.81171L15.9977 5.63891Z" fill="" ></path>
- <path id="rec" d="M2.18005 10.6199C2.18005 10.03 2.62777 9.55176 3.18005 9.55176H6.68005C7.23234 9.55176 7.68005 10.03 7.68005 10.6199V21.3018H3.18005C2.62777 21.3018 2.18005 20.8235 2.18005 20.2336V10.6199Z" fill="" ></path>
- </g>
- </g>
- </svg>
- <b class="voteUp" id="comment_voteup_"></b>
- </a>
- <a class="icon1 vote comment_vote_row_${comment_data.id} voteDown" href="javascript:;" onclick="comment_vote(, 'down');
- return false;" title="Vote this comment down (not helpful)" rel="nofollow">
- <svg width="16px" height="16px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
- <g id="style=fill">
- <g id="like">
- <path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M15.9977 5.63891C16.2695 4.34931 15.433 3.00969 14.2102 2.59462C13.6171 2.37633 12.9892 2.4252 12.4662 2.60499C11.9449 2.78419 11.4461 3.12142 11.1369 3.58441L11.136 3.58573L7.49506 9.00272C8.05104 9.29585 8.43005 9.87954 8.43005 10.5518V21.3018H6.91003V21.3018H16.6801C18.2938 21.3018 19.2028 20.2977 19.8943 19.202C20.6524 18.0009 21.1453 16.7211 21.5116 15.5812C21.6808 15.0546 21.8252 14.5503 21.9547 14.0984L21.9863 13.9881C22.126 13.5007 22.2457 13.0904 22.366 12.7549C22.698 11.8292 22.5933 10.9072 22.067 10.2072C21.5476 9.5166 20.7005 9.15175 19.76 9.15175H15.76C15.6702 9.15175 15.6017 9.11544 15.5599 9.06803C15.5238 9.02716 15.4831 8.95058 15.502 8.81171L15.9977 5.63891Z" fill="" ></path>
- <path id="rec" d="M2.18005 10.6199C2.18005 10.03 2.62777 9.55176 3.18005 9.55176H6.68005C7.23234 9.55176 7.68005 10.03 7.68005 10.6199V21.3018H3.18005C2.62777 21.3018 2.18005 20.8235 2.18005 20.2336V10.6199Z" fill="" ></path>
- </g>
- </g>
- </svg>
- <b class="voteDown" id="comment_votedown_"></b> 
- </a>
- </div>
- </div>
- </div>`;
- if (comment_data.status == 'trash') {
- str_comment += "<p><i>Your comment is awaiting moderation!</i></p>";
- }
- jQuery("#list_comment").prepend(str_comment);
- } else {
- str_comment = `<div id="comment_${comment_data.id}" class="replyWrap your_comment clearAfter">
- <div class="listProfile">
- <div class="img img-thumbnail">${comment_data.author.charAt(0)}</div>
- <span class="user">${comment_data.author}</span>
- <span class="user">${comment_data.date}</span>
- </div>
- <div class="listContent">
- <div class="comment--content">${comment_data.content}</div>
- </div>
- </div>`;
- if (comment_data.status == 'trash') {
- str_comment += "<p><i>Your comment is awaiting moderation!</i></p>";
- }
- jQuery("#comment_" + comment_data.parent_id).append(str_comment);
- jQuery("#comment_form").appendTo(".make-comment");
- jQuery("#comment_form").removeClass("commentBlock");
- reply_all();
- }
-
- jQuery("#comment_count").html(parseInt(("38")));
- jQuery("html, body").animate({
- scrollTop: jQuery("#list_comment").offset().top
- }, 1000);
- jQuery("#comment_form").trigger("reset");
-
- }
- }
- }
- });
- }
- });
- </script>
- <script>
- function reply_to(comment_id) {
- jQuery("#comment_form").addClass("commentBlock");
- jQuery("#btn_cancel").removeClass("hidden");
- jQuery("#comment_form").trigger("reset");
- jQuery("#parent_id").val(comment_id);
- jQuery("#comment_form").appendTo("#comment_" + comment_id);
- }
-
- function reply_all() {
- jQuery("#comment_form").trigger("reset");
- jQuery("#parent_id").val("0");
- jQuery("#comment_form").appendTo(".make-comment");
- jQuery("#btn_cancel").addClass("hidden");
- jQuery("#comment_form").removeClass("commentBlock");
- }
-
- function comment_vote(comment_id, vote) {
- jQuery(".comment_vote_row_" + comment_id).css("fontSize", 0);
- jQuery(".comment_vote_row_" + comment_id).prop('onclick', null).off('click');
-
- var comment_comment_voteajax = "/comment-vote.ajax";
- var metadataload = {};
- metadataload.comment_id = comment_id;
- metadataload.vote = vote;
- jQuery.ajax({
- url: comment_comment_voteajax,
- data: metadataload,
- type: 'POST',
- success: function(data) {
- if (data != '') {
- var result = jQuery.parseJSON(data);
- if (result.result === true) {
- var comment_obj = result.comment;
- switch (vote) {
- case "up":
- jQuery("#comment_voteup_" + comment_id).html(comment_obj.like);
- break;
- case "down":
- jQuery("#comment_votedown_" + comment_id).html(comment_obj.dislike);
- break;
- }
-
- }
- }
- }
- });
- }
-
- function report_comment(comment_id) {
- jQuery("#report_comment_" + comment_id).css("fontSize", 0);
- jQuery("#report_comment_" + comment_id).prop('onclick', null).off('click');
- }
- </script>
- <script>
- jQuery("#btn_comments_area").click(function() {
- jQuery("html, body").animate({
- scrollTop: jQuery("#comment_form").offset().top
- }, 1000);
- });
- jQuery('#load_more_comment').click(function(event) {
- event.preventDefault();
- var page = jQuery(this).data("page");
- var limit = jQuery(this).data("limit");
- var sort = jQuery(this).data("sort");
- var url = jQuery(this).data("url");
- load_comment(page, limit, sort, url, '#list_comment', '');
- });
-
- function load_comment(page, limit, sort, url, main_contain_id, refresh) {
- jQuery("#load_more_comment").remove();
- jQuery(".comment-load-more").show();
- var mainposturl = "/comment-paging.ajax";
- var metadataload = {};
- metadataload.page = page;
- metadataload.limit = limit;
- metadataload.sort = sort;
- metadataload.url = url;
- jQuery.ajax({
- url: mainposturl,
- data: metadataload,
- type: 'POST',
- success: function(data) {
- jQuery(".comment-load-more").hide();
- if (refresh === 'f5') {
- jQuery(main_contain_id).html(data);
- } else {
- jQuery(main_contain_id).append(data);
- }
- jQuery('#load_more_comment').click(function(event) {
- event.preventDefault();
- var page = jQuery(this).data("page");
- var limit = jQuery(this).data("limit");
- var sort = jQuery(this).data("sort");
- var url = jQuery(this).data("url");
- load_comment(page, limit, sort, url, '#list_comment', '');
- });
- }
- });
- }
- load_comment(1, 5, "newest", "http://crazycattle3d.io/", "#list_comment", "");
- jQuery('#sort_by').on('change', function() {
- load_comment(1, 5, "" + this.value + "", "http://crazycattle3d.io/", "#list_comment", "f5");
- });
- </script>
- </div>
+<body><!--MENU-->
+<header id="header">
+    <div class="container">
+        <div class="row">
+            <div class="p-r d-flex sp al header-bar">
+                <div class="bar-logo">
+                    <a class="logo-text" href="/crazycattle3dgame.github.io/">Crazy Cattle 3D</a>
+                </div>
+                <nav class="navigation">
+                    <ul>
+                                                    <li>
+                                <a class="menu-link" href="/tribalsio">
+                                    <span class="text-menu-link">Tribals.io</span>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a class="menu-link" href="/survival-race">
+                                    <span class="text-menu-link">Survival Race</span>
+                                </a>
+                            </li>
+                                            </ul>
+                </nav>
+                <div class="center-box merge_icon icon-menu-mobile">
+                    <svg fill="#555" height="24" viewBox="0 -21 384 384" width="24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m362.667969 0h-341.335938c-11.753906 0-21.332031 9.578125-21.332031 21.332031v42.667969c0 11.753906 9.578125 21.332031 21.332031 21.332031h341.335938c11.753906 0 21.332031-9.578125 21.332031-21.332031v-42.667969c0-11.753906-9.578125-21.332031-21.332031-21.332031zm0 0">
+                        </path>
+                        <path d="m362.667969 128h-341.335938c-11.753906 0-21.332031 9.578125-21.332031 21.332031v42.667969c0 11.753906 9.578125 21.332031 21.332031 21.332031h341.335938c11.753906 0 21.332031-9.578125 21.332031-21.332031v-42.667969c0-11.753906-9.578125-21.332031-21.332031-21.332031zm0 0">
+                        </path>
+                        <path d="m362.667969 256h-341.335938c-11.753906 0-21.332031 9.578125-21.332031 21.332031v42.667969c0 11.753906 9.578125 21.332031 21.332031 21.332031h341.335938c11.753906 0 21.332031-9.578125 21.332031-21.332031v-42.667969c0-11.753906-9.578125-21.332031-21.332031-21.332031zm0 0">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--END MENU-->
+<!--Mobil MENU-->
+<div class="mobile-dropdown" id="mobile-dropdown">
+    <div class="row">
+        <nav class="nav-mobile-controler">
+            <ul>
+                                    <li>
+                        <a class="menu-link-mobile" href="/crazycattle3dgame.github.io/tribalsio">
+                            <span class="text-menu-link">Tribals.io</span>
+                        </a>
+                    </li>
+                                    <li>
+                        <a class="menu-link-mobile" href="/crazycattle3dgame.github.io/survival-race">
+                            <span class="text-menu-link">Survival Race</span>
+                        </a>
+                    </li>
+                            </ul>
+        </nav>
+    </div>
 </div>
-<style>
- #comments_area .row {
- display: flex;
- margin: 0 -15px;
- flex-wrap: wrap;
- width: unset
- }
+<!--END Mobile menu--><!--GAME PLAY-->
+<div id="game-page" class="main">
+    <div class="container">
+
+        <div class="row">
+            <div class="frame-box-game">
+                <iframe title="Crazy Cattle 3D" id="iframehtml5" class="d-block" width="100%" height="600px" target="_parent" src="https://crazy-cattle3d.org/game/crazycattle3d/" frameborder="0" border="0" scrolling="no" allowfullscreen=""></iframe>
+                <div class="header-game">
+                    <div class="box-header">
+                        <h1>Crazy Cattle 3D</h1>
+                        <div class="header-game-extend">
+                            <span class="us-expand" id="half-expand" onclick="theaterMode()">
+                                <svg class="scale-anim" width="24" height="24" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" preserveAspectRatio="xMidYMid meet">
+                                    <path d="M8.5 22.5A3.5 3.5 0 0 0 5 26v48a3.5 3.5 0 0 0 3.5 3.5h83A3.5 3.5 0 0 0 95 74V26a3.5 3.5 0 0 0-3.5-3.5h-83zm3.5 7h76v41H12v-41z">
+                                    </path>
+                                </svg>
+                            </span>
+                            <span class="expand-btn" id="expand">
+                                <svg class="scale-anim" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3,15 L3.11662113,15.0067277 C3.57570299,15.0600494 3.93995063,15.424297 3.99327227,15.8833789 L4,16 L4,20 L8,20 L8.11662113,20.0067277 C8.61395981,20.0644928 9,20.4871642 9,21 C9,21.5128358 8.61395981,21.9355072 8.11662113,21.9932723 L8,22 L3,22 L2.88337887,21.9932723 C2.42429701,21.9399506 2.06004937,21.575703 2.00672773,21.1166211 L2,21 L2,16 L2.00672773,15.8833789 C2.06004937,15.424297 2.42429701,15.0600494 2.88337887,15.0067277 L3,15 Z M21,15 C21.5128358,15 21.9355072,15.3860402 21.9932723,15.8833789 L22,16 L22,21 C22,21.5128358 21.6139598,21.9355072 21.1166211,21.9932723 L21,22 L16,22 C15.4477153,22 15,21.5522847 15,21 C15,20.4871642 15.3860402,20.0644928 15.8833789,20.0067277 L16,20 L20,20 L20,16 C20,15.4871642 20.3860402,15.0644928 20.8833789,15.0067277 L21,15 Z M8,2 C8.55228475,2 9,2.44771525 9,3 C9,3.51283584 8.61395981,3.93550716 8.11662113,3.99327227 L8,4 L4,4 L4,8 C4,8.51283584 3.61395981,8.93550716 3.11662113,8.99327227 L3,9 C2.48716416,9 2.06449284,8.61395981 2.00672773,8.11662113 L2,8 L2,3 C2,2.48716416 2.38604019,2.06449284 2.88337887,2.00672773 L3,2 L8,2 Z M21,2 L21.1166211,2.00672773 C21.575703,2.06004937 21.9399506,2.42429701 21.9932723,2.88337887 L22,3 L22,8 L21.9932723,8.11662113 C21.9399506,8.57570299 21.575703,8.93995063 21.1166211,8.99327227 L21,9 L20.8833789,8.99327227 C20.424297,8.93995063 20.0600494,8.57570299 20.0067277,8.11662113 L20,8 L20,4 L16,4 L15.8833789,3.99327227 C15.3860402,3.93550716 15,3.51283584 15,3 C15,2.48716416 15.3860402,2.06449284 15.8833789,2.00672773 L16,2 L21,2 Z"></path>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <span class="exit-fullscreen hidden" id="_exit_full_screen">
+                    <svg fill="#fff" width="24" height="24" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512.001 512.001" style="enable-background: new 0 0 512.001 512.001;">
+                        <g>
+                            <g>
+                                <path d="M284.286,256.002L506.143,34.144c7.811-7.811,7.811-20.475,0-28.285c-7.811-7.81-20.475-7.811-28.285,0L256,227.717 L34.143,5.859c-7.811-7.811-20.475-7.811-28.285,0c-7.81,7.811-7.811,20.475,0,28.285l221.857,221.857L5.858,477.859 c-7.811,7.811-7.811,20.475,0,28.285c3.905,3.905,9.024,5.857,14.143,5.857c5.119,0,10.237-1.952,14.143-5.857L256,284.287 l221.857,221.857c3.905,3.905,9.024,5.857,14.143,5.857s10.237-1.952,14.143-5.857c7.811-7.811,7.811-20.475,0-28.285 L284.286,256.002z">
+                                </path>
+                            </g>
+                        </g>
+                    </svg>
+                </span>
+            </div>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="uk-grid-clayover">
+                                    <div class="uk-grid-game">
+													<a class="uk-game-link" href="/zombsroyaleio">
+						                            <div class="uk-wrap-image">
+                                <img width="95" height="95" src="rs/imgs/zombsroyale.io.png" title="ZombsRoyale.io" alt="ZombsRoyale.io">
+                                <span class="text-overflow uk-game-title">ZombsRoyale.io</span>
+                                                                    <span class="sticker new"></span>
+                                                            </div>
+                        </a>
+                    </div>
+                                    <div class="uk-grid-game">
+													<a class="uk-game-link" href="/craftnite">
+						                            <div class="uk-wrap-image">
+                                <img width="95" height="95" src="rs/imgs/craftnite-game.png" title="Craftnite" alt="Craftnite">
+                                <span class="text-overflow uk-game-title">Craftnite</span>
+                                                            </div>
+                        </a>
+                    </div>
+                                    <div class="uk-grid-game">
+													<a class="uk-game-link" href="/gobattleio">
+						                            <div class="uk-wrap-image">
+                                <img width="95" height="95" src="rs/imgs/gobattle.io-game.png" title="GoBattle.io" alt="GoBattle.io">
+                                <span class="text-overflow uk-game-title">GoBattle.io</span>
+                                                            </div>
+                        </a>
+                    </div>
+                                    <div class="uk-grid-game">
+													<a class="uk-game-link" href="/build-royale">
+						                            <div class="uk-wrap-image">
+                                <img width="95" height="95" src="rs/imgs/build-royale.png" title="Build Royale" alt="Build Royale">
+                                <span class="text-overflow uk-game-title">Build Royale</span>
+                                                                    <span class="sticker hot"></span>
+                                                            </div>
+                        </a>
+                    </div>
+                                    <div class="uk-grid-game">
+													<a class="uk-game-link" href="/goober-royale">
+						                            <div class="uk-wrap-image">
+                                <img width="95" height="95" src="rs/imgs/goober-royale-game.png" title="Goober Royale" alt="Goober Royale">
+                                <span class="text-overflow uk-game-title">Goober Royale</span>
+                                                            </div>
+                        </a>
+                    </div>
+                                    <div class="uk-grid-game">
+													<a class="uk-game-link" href="/alien-invadersio">
+						                            <div class="uk-wrap-image">
+                                <img width="95" height="95" src="rs/imgs/alien-invaders.io-game.jpeg" title="Alien Invaders.io" alt="Alien Invaders.io">
+                                <span class="text-overflow uk-game-title">Alien Invaders.io</span>
+                                                                    <span class="sticker new"></span>
+                                                            </div>
+                        </a>
+                    </div>
+                                    <div class="uk-grid-game">
+													<a class="uk-game-link" href="/fragpunk">
+						                            <div class="uk-wrap-image">
+                                <img width="95" height="95" src="rs/imgs/fragpunk.jpg" title="Fragpunk" alt="Fragpunk">
+                                <span class="text-overflow uk-game-title">Fragpunk</span>
+                                                            </div>
+                        </a>
+                    </div>
+                                    <div class="uk-grid-game">
+													<a class="uk-game-link" href="/kourio">
+						                            <div class="uk-wrap-image">
+                                <img width="95" height="95" src="rs/imgs/kour.io-game.png" title="Kour.io" alt="Kour.io">
+                                <span class="text-overflow uk-game-title">Kour.io</span>
+                                                            </div>
+                        </a>
+                    </div>
+                                    <div class="uk-grid-game">
+													<a class="uk-game-link" href="/survival-race">
+						                            <div class="uk-wrap-image">
+                                <img width="95" height="95" src="rs/imgs/survival-race-game.png" title="Survival Race" alt="Survival Race">
+                                <span class="text-overflow uk-game-title">Survival Race</span>
+                                                                    <span class="sticker hot"></span>
+                                                            </div>
+                        </a>
+                    </div>
+                                    <div class="uk-grid-game">
+													<a class="uk-game-link" href="/tribalsio">
+						                            <div class="uk-wrap-image">
+                                <img width="95" height="95" src="rs/imgs/tribals.io-game.png" title="Tribals.io" alt="Tribals.io">
+                                <span class="text-overflow uk-game-title">Tribals.io</span>
+                                                                    <span class="sticker new"></span>
+                                                            </div>
+                        </a>
+                    </div>
+                            </div>
+        </div>
+
+        <br>
+        <div class="uk-p10">
+            <div class="row">
+                <div class="frame-box-game">
+                    <div class="text-area">
+                        <div class="d-flex us-game-info">
+                            <div class="bread-crumb">
+                                <div class="overwrite-breadcumb">
+                                    <div class="d-flex al sp bread-crumb-list">
+                                        <div class="d-flex al sp">
+                                            <a class="bread-crumb-item" href="/">Home</a>
+                                            <span class="bread-crumb-item bread-after">Crazy Cattle 3D</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-area--content">
+                            <h2>About Crazy Cattle 3D</h2><h2><span>What is Crazy Cattle 3D?</span></h2>
+<p><span><strong>Crazy Cattle 3D</strong> is an engaging battle royale game with a wild twist on this genre. In this quirky indie game, you take control of an explosive sheep. Your main objective is to outlast the rest and become the final sheep standing.&nbsp;</span></p>
+<p><span>Instead of relying on guns or loot, the game focuses on physics-based action. You’ll race across unpredictable terrain, using momentum and clever collisions to send rival sheep flying off cliffs or into dangerous traps.&nbsp;</span></p>
+<p><span>With its straightforward concept and tricky mechanics, Crazy Cattle 3D delivers a uniquely fun and frantic experience.</span></p>
+<h2><span>How to play the Crazy Cattle 3D game?</span></h2>
+<p><span>You take control of a bouncing, explosive sheep in the chaotic combat royale environment of Crazy Cattle 3D. The goal is straightforward: eliminate all other sheep from the map and remain the last person standing.</span></p>
+<p><span>Physics-based movement: You propel yourself by rolling, bouncing, and charging. The secret is to master momentum; direction and speed are more important than force.</span></p>
+<p><span>Strategic collisions: By colliding with opponents at the proper angle and speed, you can remove them without needing weapons. A well-placed blow might send them flying off the platform or into dangers like thorns, lava, or moving objects.</span></p>
+<p><span>Dynamic maps: A floating map full of hazards serves as the backdrop for each game. The terrain, which varies from frozen surfaces to bouncing pads and spinning traps, continuously changes the approach.</span></p>
+<p><span>Fast-paced matches: Games are fast-paced and chaotic, with funny physics moments and unpredictable results. It's simple to get started, play a few rounds, and become addicted.</span></p>
+<p><span>Multiplayer mayhem: Take on friends or random players in online bouts where the winner is decided by time, positioning, and a little bit of chance.&nbsp;</span></p>
+<h2><span>Outstanding features of this hot game</span></h2>
+<ul>
+<li style="font-weight: 400;"><span>Unpredictable and hilarious sheep movements: They are brought to life by the game's innovative physics engine, which also generates other breakthrough effects.</span></li>
+<li style="font-weight: 400;"><span>Distinct Terrains: Fight on three separate maps, each with its unique challenges: the undulating hills of Ireland, the volcanic fields of Iceland, and the spectacular peaks of New Zealand.</span></li>
+<li style="font-weight: 400;"><span>Addictive gameplay: Mastering movement and timing is all it takes to win, with no upgrades or pay-to-win mechanisms.</span></li>
+<li style="font-weight: 400;"><span>Short 30-Minute Matches: This game is great for quick gaming sessions, its diminishing playing field adds suspense and thrill.</span></li>
+<li style="font-weight: 400;"><span>Players are swarming to this fuzzy phenomenon, creating a vibrant community with informal rating systems and fan-driven events.</span></li>
+</ul>                                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!--END GAME PLAY--><footer>
+    <script src="rs/js/jquery-3.4.1.min.js"></script>
+    <script src="rs/js/footer.js"></script>
+</footer>
 
- #comments_area .col-md-12 {
- box-sizing: border-box;
- width: 100%;
- padding: 0 15px;
- }
 
- #comments_area input,
- #comments_area select {
- appearance: revert;
- }
-
- #comments_area .col-md-6 {
- box-sizing: border-box;
- padding: 0 15px;
- width: 50%
- }
-
- #comments_area .col-md-4 {
- box-sizing: border-box;
- padding: 0 15px;
- width: 33.33%
- }
-
- .comment-header,
- .comment-count {
- display: flex;
- justify-content: space-between;
- align-items: center;
- font-weight: 600;
- }
-
- #comment_count {
- margin-left: 5px;
- }
-
- .comment-load-more,
- .comment_loading {
- background: url('/themes/crazycattle3d/rs/imgs/comments/icon_loader.gif') 0 0/100% auto no-repeat;
- width: 70px;
- height: 50px;
- margin: 0 auto;
- display: none
- }
-
- .col-all {
- display: flex;
- flex-basis: auto
- }
-
- .replyWrap {
- position: relative;
- background: url('/themes/crazycattle3d/rs/imgs/comments/quote.png') right top no-repeat;
- border-top: 1px solid #e8e8e8
- }
-
- .clearAfter {
- display: block;
- clear: both;
- padding: 10px 0;
- }
-
- .listProfile {
- display: flex;
- align-items: center;
- margin-bottom: 10px;
- }
-
- .listProfile .user {
- font-size: 16px;
- margin-right: 10px;
- }
-
- .listProfile .user:nth-child(2) {
- text-decoration: underline;
- font-size: 18px;
- }
-
- .listProfile .user:nth-child(3) {
- opacity: 0.85;
- }
-
- .listContent {
- position: relative;
- overflow: hidden
- }
-
- .replyWrap .left {
- float: left;
- padding: 0
- }
-
- .replyWrap b.voteUp {
- color: #3998f7;
- margin-left: 5px;
- }
-
- .replyWrap .rating b {
- font-weight: 400
- }
-
- .replyWrap b.voteDown {
- color: #ef3056
- }
-
- .replyWrap a.icon1.voteDown svg {
- transform: rotate(-180deg);
- fill: #ef3056;
- }
-
- .replyWrap a.icon1.voteUp svg {
- fill: #3998f7;
- }
-
- .replyWrap .right {
- float: right;
- padding: 0
- }
-
- .replyWrap a.icon1 {
- display: flex;
- align-items: center;
- letter-spacing: -1px;
- font-size: 16px;
- padding: 0;
- padding: 2px;
- margin-right: 8px;
-
- }
-
- .replyWrap a.icon1>svg {
- width: 18px;
- height: 18px;
- fill: #4b80c9;
- }
-
- .icon1 {
- padding-left: 20px;
- background-position: left center;
- background-repeat: no-repeat
- }
-
- a.icon1 {
- border: 0 !important
- }
-
- .replyWrap a.icon1>b {
- font-size: 16px;
- line-height: 1;
- margin-left: 2px;
- opacity: 0.8;
- }
-
- .commentBlock {
- border-top: 1px solid #eee;
- }
-
- .commentBlock .listProfile {
- margin-left: 0;
- padding-left: 6px;
- text-align: center
- }
-
- .your_comment {
- background: #d1f4a8;
- padding: 10px;
- }
-
- /* .comment {
- background-image: url('/themes/crazycattle3d/rs/imgs/comments/comment.png')
- }
-
- .replyWrap a.voteUp {
- background-image: url('/themes/crazycattle3d/rs/imgs/comments/thumbs_up.png')
- }
-
- .replyWrap a.voteDown {
- background-image: url('/themes/crazycattle3d/rs/imgs/comments/thumbs_down.png')
- } */
-
- .replyWrap a.report {
- background-position: 0 2px
- }
-
-
- /* a.fav {
- background-image: url('/themes/crazycattle3d/rs/imgs/comments/heart.png')
- }
-
- .report {
- background-image: url('/themes/crazycattle3d/rs/imgs/comments/report.png')
- } */
-
- .commentLink {
- float: left;
- padding-left: 35px;
- background: url('/themes/crazycattle3d/rs/imgs/comments/comment_comment.png') left center no-repeat;
- border: 0;
- line-height: 26px
- }
-
- #rc-imageselect {
- transform: scale(.77);
- -webkit-transform: scale(.77);
- transform-origin: 0 0;
- -webkit-transform-origin: 0 0
- }
-
- @media screen and (max-height:575px) {
-
- #rc-imageselect,
- .g-recaptcha {
- transform: scale(.77);
- -webkit-transform: scale(.77);
- transform-origin: 0 0;
- -webkit-transform-origin: 0 0
- }
- }
-
- .required {
- color: red
- }
-
- input.error,
- textarea.error {
- border: 1px solid red !important
- }
-
- div.error,
- label.error {
- font-weight: 400;
- color: red !important;
- display: block
- }
-
- .text-normal {
- font-weight: 400 !important
- }
-
- .make-comment label {
- display: block;
- margin-left: 12px;
- padding: 10px 0
- }
-
- #respond textarea {
- background-color: #fff;
- border: 1px solid #ddd;
- color: #333;
- font-size: 18px;
- font-weight: 400;
- padding: 16px;
- width: 100%
- }
-
- .btn1,
- .form-control {
- font-size: 16px;
- line-height: 1.42857143;
- background-image: none
- }
-
- #comments_area {
- text-align: left;
- color: inherit;
- line-height: 1.5
- }
-
- .form-control {
- display: block;
- width: 100%;
- /* height: 34px; */
- color: #555;
- background-color: #fff;
- border: 1px solid #ccc;
- border-radius: 4px;
- -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
- box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
- -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
- -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
- transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
- box-sizing: border-box;
- padding: 10px 15px;
- margin-top: 15px;
- }
-
- textarea.form-control {
- height: auto
- }
-
- .btn1 {
- display: inline-block;
- padding: 6px 12px;
- margin-bottom: 0;
- font-weight: 400;
- text-align: center;
- white-space: nowrap;
- vertical-align: middle;
- cursor: pointer;
- -webkit-user-select: none;
- -moz-user-select: none;
- -ms-user-select: none;
- user-select: none;
- border: 1px solid transparent;
- border-radius: 4px
- }
-
- .btn-primary {
- background-color: #4b80c9;
- border-color: #4b80c9;
- color: #fff
- }
-
- .btn-primary:hover {
- font-weight: 700
- }
-
- .hidden {
- display: none
- }
-
- .pull-right {
- float: right !important
- }
-
- .comment-date {
- /* white-space: nowrap; */
- /* font-size: 10px; */
- }
-
- select.input-sm {
- height: 30px;
- line-height: 30px;
- margin: 10px
- }
-
- #list_comment a {
- color: inherit
- }
-
- #load_more_comment {
- color: #fff !important;
- }
-
- #comment_form {
- padding-top: 20px
- }
-
- #msg {
- padding: 10px 0;
- font-style: italic
- }
-
- .comment-notes {
- padding-bottom: 10px;
- font-style: italic
- }
-
- #comment_form {
- clear: both
- }
-
- .question-title {
- padding-left: 15px
- }
-
- #sort_by {
- color: #000
- }
-
- #comments_area .img-thumbnail {
- display: inline-block;
- -webkit-transition: all .2s ease-in-out;
- -o-transition: all .2s ease-in-out;
- transition: all .2s ease-in-out;
- border-radius: 50%;
- background-color: #4b80c9;
- color: #fff;
- text-transform: uppercase;
- width: 45px;
- height: 45px;
- line-height: 45px;
- text-align: center;
- margin-right: 10px;
- font-weight: 600;
- font-size: 20px;
- }
-
- .listProfile img {
- width: auto;
- height: auto
- }
-
- .img-cirle {
- width: 24px !important;
- height: 24px !important
- }
-
- .comment--content {
- margin-bottom: 10px;
- word-break: break-word;
- }
-
- .control-action {
- display: flex;
- align-items: center;
- }
-
- .comment__reply {
- padding-left: 20px;
- border-left: 2px dashed #e8e8e8;
- }
-
- p>i {
- font-size: 16px;
- }
-
- @media (max-width:991px) {
- #comments_area .col-md-4 {
- width: 100%
- }
- }
-</style></div></div></div></div></section><section class="area"><div class="area__heading"><p class="area__title title">All free games <b>for you</b> </p><div class="area-heading__meta"><a href="/new-games" class="area-heading__button btn btn--accent" title="View all">View all</a></div></div><div class=""><div class="g-items card-masonry"><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/zombie-royale" title="Zombie Royale">Zombie Royale</a></div><a class="g-item__thumb" href="/zombie-royale" title="Zombie Royale"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-18-115637-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="Zombie Royale" alt="Zombie Royale img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/vengeio" title="Venge.io">Venge.io</a></div><a class="g-item__thumb" href="/vengeio" title="Venge.io"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-18-105425-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="Venge.io" alt="Venge.io img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/1v1-lol" title="1v1 LOL">1v1 LOL</a></div><a class="g-item__thumb" href="/1v1-lol" title="1v1 LOL"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/1v1-lol-m300x300.jpg" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="1v1 LOL" alt="1v1 LOL img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/repuls" title="REPULS">REPULS</a></div><a class="g-item__thumb" href="/repuls" title="REPULS"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-18-102107-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="REPULS" alt="REPULS img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/wizard-masters" title="Wizard Masters">Wizard Masters</a></div><a class="g-item__thumb" href="/wizard-masters" title="Wizard Masters"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-18-101047-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="Wizard Masters" alt="Wizard Masters img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/yohohoio" title="YoHoHo.io">YoHoHo.io</a></div><a class="g-item__thumb" href="/yohohoio" title="YoHoHo.io"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-18-100446-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="YoHoHo.io" alt="YoHoHo.io img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/mk48io" title="Mk48.io">Mk48.io</a></div><a class="g-item__thumb" href="/mk48io" title="Mk48.io"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-18-091549-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="Mk48.io" alt="Mk48.io img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/kiomet" title="Kiomet">Kiomet</a></div><a class="g-item__thumb" href="/kiomet" title="Kiomet"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-18-091057-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="Kiomet" alt="Kiomet img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/battle-arena" title="Battle Arena">Battle Arena</a></div><a class="g-item__thumb" href="/battle-arena" title="Battle Arena"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-18-094909-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="Battle Arena" alt="Battle Arena img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/kingdom-of-pixels" title="Kingdom of Pixels">Kingdom of Pixels</a></div><a class="g-item__thumb" href="/kingdom-of-pixels" title="Kingdom of Pixels"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-18-083129-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="Kingdom of Pixels" alt="Kingdom of Pixels img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/voxiomio" title="Voxiom.io">Voxiom.io</a></div><a class="g-item__thumb" href="/voxiomio" title="Voxiom.io"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-18-083540-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="Voxiom.io" alt="Voxiom.io img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/stateio" title="State.io">State.io</a></div><a class="g-item__thumb" href="/stateio" title="State.io"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-18-084020-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="State.io" alt="State.io img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/kirkaio" title="Kirka.io">Kirka.io</a></div><a class="g-item__thumb" href="/kirkaio" title="Kirka.io"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-18-082123-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="Kirka.io" alt="Kirka.io img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/shell-shockers" title="Shell Shockers">Shell Shockers</a></div><a class="g-item__thumb" href="/shell-shockers" title="Shell Shockers"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/anh-chup-man-hinh-2025-04-17-220801-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="Shell Shockers" alt="Shell Shockers img"></a></div></div></div><div class="g-items__item_large item large"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/build-royale" title="Build Royale">Build Royale</a></div><a class="g-item__thumb" href="/build-royale" title="Build Royale"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-17-080155-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="Build Royale" alt="Build Royale img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/lolbeans" title="Lolbeans">Lolbeans</a></div><a class="g-item__thumb" href="/lolbeans" title="Lolbeans"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-17-075827-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="Lolbeans" alt="Lolbeans img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/fragpunk" title="Fragpunk">Fragpunk</a></div><a class="g-item__thumb" href="/fragpunk" title="Fragpunk"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-16-162016-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="Fragpunk" alt="Fragpunk img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/craftnite" title="Craftnite">Craftnite</a></div><a class="g-item__thumb" href="/craftnite" title="Craftnite"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-17-075950-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="Craftnite" alt="Craftnite img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/alien-invaders" title="Alien Invaders">Alien Invaders</a></div><a class="g-item__thumb" href="/alien-invaders" title="Alien Invaders"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-17-080035-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="Alien Invaders" alt="Alien Invaders img"></a></div></div></div><div class="g-items__item item"><div class="g-item g-item--small g-item--dark"><div class="g-item__inner"><div class="g-item__overlay"><a class="g-item__title" href="/zombsroyaleio" title="ZombsRoyale.io">ZombsRoyale.io</a></div><a class="g-item__thumb" href="/zombsroyaleio" title="ZombsRoyale.io"><img width="300" height="300" src="/themes/crazycattle3d/rs/imgs/game_load.webp" data-src="/cache/data/image/game/screenshot-2025-04-17-075914-m300x300.png" class="lazy-image g-item__thumb wp-post-image" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" title="ZombsRoyale.io" alt="ZombsRoyale.io img"></a></div></div></div></div></div></section></div><script type="text/javascript">id_game = "31";
-	url_game = "http://crazycattle3d.io/";</script><script type="application/ld+json">[{"@context":"https:\/\/schema.org","@type":"SoftwareApplication","name":"Crazy Cattle 3D","url":"https:\/\/crazycattle3d.io\/","author":{"@type":"Organization","name":"Crazy Cattle 3D"},"description":"Crazy Cattle 3D is an indie, single-player battle royale game where you play as a sheep trying to eliminate other sheep by bumping into them and knocking them over.","applicationCategory":"GameApplication","operatingSystem":"any","aggregateRating":{"@type":"AggregateRating","worstRating":1,"bestRating":5,"ratingValue":"4.6","ratingCount":"344"},"image":"https:\/\/crazycattle3d.io\/\/data\/image\/game\/crazy-cattle-3d-game.jpg","offers":{"@type":"Offer","category":"free","price":0,"priceCurrency":"USD"}},{"@context":"https:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Crazy Cattle 3D","item":"https:\/\/crazycattle3d.io\/"}]}]</script></div></div></div>
-<div class="layout__footer"><footer class="footer"><div class="container"><div class="footer__inner"><div class="footer__copyright"><strong>Disclaimer: </strong> <a style="color:#fff" title="Crazy Cattle 3D" href="/"> Crazy Cattle 3D </a> is an independent website and is not affiliated with any organizations.</div><div class="footer__menu"><nav class="footer-menu"><ul id="menu-footer" class="footer-menu__inner"><li id="menu-item-1454" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1454"><a href="/about-us" title="About Us">About Us</a></li><li id="menu-item-1452" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1452"><a href="/contact-us" title="Contact Us">Contact Us</a></li><li id="menu-item-1435" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-1435"><a href="/term-of-use" title="Term Of Use">Term Of Use</a></li><li id="menu-item-1455" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1455"><a href="/privacy-policy" title="Privacy Policy">Privacy Policy</a></li><li id="menu-item-1453" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1453"><a href="/copyright-infringement-notice-procedure" title="Copyright">Copyright Infringement Notice Procedure</a></li></ul></nav></div></div></div></footer></div></div><a id="back-to-top" href="#" title="Наверх" class="btn-top show"><svg class="icon" width="18px" height="18px"><use xlink:href="#icon-arrow-right"></use></svg></a><div class="loading_mask hidden-load"><svg width="80px" height="80px" viewBox="0 0 100 100"><g transform="translate(50 50)"><g transform="scale(0.794652 0.794652)"><animateTransform attributeName="transform" type="scale" calcMode="spline" values="0.8;0.5;0.8" keyTimes="0;0.5;1" dur="1.5s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" begin="0s" repeatCount="indefinite"></animateTransform><rect x="-45" y="-45" width="90" height="90" fill="#ffffcb" stroke="#ff7c81" stroke-width="8" rx="5.55556" transform="rotate(4.81284)"><animate attributeName="rx" calcMode="linear" values="0;50;0" keyTimes="0;0.5;1" dur="1.5" begin="0s" repeatCount="indefinite"></animate><animate attributeName="stroke-width" calcMode="linear" values="8;24;8" keyTimes="0;0.5;1" dur="1.5" begin="0s" repeatCount="indefinite"></animate><animateTransform attributeName="transform" type="rotate" calcMode="spline" values="0 0 0;270 0 0;540 0 0" keyTimes="0;0.5;1" dur="1.5s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" begin="0s" repeatCount="indefinite"></animateTransform></rect></g></g></svg></div><!-- all <svg> header_game: share +comment + fullscreen ...--><div class="images-preload"><svg><symbol id="icon-close" viewBox="0 0 512 512"><path d="M293.264 256.358L503.689 47.0834C506.085 44.7262 507.988 41.9156 509.287 38.8155C510.586 35.7154 511.255 32.3877 511.255 29.0264C511.255 25.6651 510.586 22.3374 509.287 19.2373C507.988 16.1372 506.085 13.3266 503.689 10.9694C493.626 0.982956 477.281 0.982956 467.218 10.9694L256.973 220.065L44.7842 7.8529C34.7213 -2.23547 18.3765 -2.23547 8.31357 7.8529C-1.74933 17.9668 -1.74933 34.337 8.31357 44.4254L220.348 256.485L7.54718 468.11C-2.51573 478.096 -2.51573 494.263 7.54718 504.224C17.6101 514.21 33.9549 514.21 44.0178 504.224L256.638 292.777L467.982 504.147C478.045 514.235 494.39 514.235 504.453 504.147C514.516 494.033 514.516 477.663 504.453 467.575L293.264 256.358Z"></path></symbol><symbol id="icon-search" viewBox="0 0 56.966 56.966"><path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23
- s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92
- c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17
- s-17-7.626-17-17S14.61,6,23.984,6z"></path></symbol><symbol id="icon-arrow-right" viewBox="0 0 451.846 451.847"><path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path></symbol><symbol id="icon-fullscreen" viewBox="0 0 64 64"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.0878 32V12.0878H32V6H6V32H12.0878Z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M32 58H58V32H51.9122V51.9122H32V58Z"></path><path d="M18.3531 22.6654L22.6653 18.3532L45.6214 41.3093L41.3093 45.6215L18.3531 22.6654Z"></path></symbol><symbol id="icon-share" viewBox="0 0 512.231 512.231"><path d="m271.249 121.448c-70.515 3.65-136.443 33.004-187.025 83.587-54.152 54.151-83.975 125.899-83.975 202.025v105.171l38.098-87.825c44.499-88.669 134.739-147.458 232.902-152.927v121.202l240.733-196.638-240.733-196.043zm30 29.612v-87.94l163.267 132.958-163.267 133.361v-88.379h-15c-56.878 0-112.732 15.993-161.522 46.249-36.948 22.913-68.428 53.121-92.593 88.604 15.408-126.529 123.493-224.853 254.115-224.853z"></path></symbol><symbol id="icon-menu" viewBox="0 0 64 64"><path d="M45.4125 32C45.4125 30.575 44.25 29.4125 42.825 29.4125H2.575C1.1625 29.4125 0 30.575 0 32C0 33.425 1.1625 34.5875 2.5875 34.5875H42.8375C44.2625 34.5875 45.4125 33.425 45.4125 32Z"></path><path d="M61.4125 9.79999H2.5875C1.1625 9.79999 0 10.9625 0 12.3875C0 13.8125 1.1625 14.975 2.5875 14.975H61.4125C62.8375 14.975 64 13.8125 64 12.3875C64 10.9625 62.8375 9.79999 61.4125 9.79999Z"></path><path d="M61.4125 49.025H2.5875C1.1625 49.025 0 50.1875 0 51.6125C0 53.0375 1.1625 54.2 2.5875 54.2H61.4125C62.8375 54.2 64 53.0375 64 51.6125C64 50.1875 62.8375 49.025 61.4125 49.025Z"></path></symbol><symbol id="icon-comments" viewBox="0 0 512 512"><path d="M160 176C151.513 176 143.374 179.371 137.373 185.373C131.371 191.374 128 199.513 128 208C128 216.487 131.371 224.626 137.373 230.627C143.374 236.629 151.513 240 160 240C168.487 240 176.626 236.629 182.627 230.627C188.629 224.626 192 216.487 192 208C192 199.513 188.629 191.374 182.627 185.373C176.626 179.371 168.487 176 160 176ZM224 208C224 199.513 227.371 191.374 233.373 185.373C239.374 179.371 247.513 176 256 176C264.487 176 272.626 179.371 278.627 185.373C284.629 191.374 288 199.513 288 208C288 216.487 284.629 224.626 278.627 230.627C272.626 236.629 264.487 240 256 240C247.513 240 239.374 236.629 233.373 230.627C227.371 224.626 224 216.487 224 208ZM352 176C343.513 176 335.374 179.371 329.373 185.373C323.371 191.374 320 199.513 320 208C320 216.487 323.371 224.626 329.373 230.627C335.374 236.629 343.513 240 352 240C360.487 240 368.626 236.629 374.627 230.627C380.629 224.626 384 216.487 384 208C384 199.513 380.629 191.374 374.627 185.373C368.626 179.371 360.487 176 352 176Z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M80 16C58.7827 16 38.4344 24.4285 23.4315 39.4315C8.42855 54.4344 0 74.7827 0 96L0 320C0 341.217 8.42855 361.566 23.4315 376.569C38.4344 391.571 58.7827 400 80 400H80.192L80.352 474.848C80.3576 478.045 81.3208 481.167 83.1175 483.812C84.9141 486.456 87.4618 488.502 90.432 489.685C93.4022 490.867 96.6586 491.133 99.7814 490.448C102.904 489.763 105.75 488.158 107.952 485.84L189.376 400H432C453.217 400 473.566 391.571 488.569 376.569C503.571 361.566 512 341.217 512 320V96C512 85.4943 509.931 75.0914 505.91 65.3853C501.89 55.6793 495.997 46.8601 488.569 39.4315C481.14 32.0028 472.321 26.11 462.615 22.0896C452.909 18.0693 442.506 16 432 16H80ZM32 96C32 83.2696 37.0571 71.0606 46.0589 62.0589C55.0606 53.0571 67.2696 48 80 48H432C444.73 48 456.939 53.0571 465.941 62.0589C474.943 71.0606 480 83.2696 480 96V320C480 332.73 474.943 344.939 465.941 353.941C456.939 362.943 444.73 368 432 368H182.496C180.322 367.999 178.171 368.442 176.174 369.3C174.177 370.158 172.376 371.414 170.88 372.992L112.256 434.784L112.16 383.968C112.152 379.73 110.462 375.669 107.462 372.675C104.463 369.681 100.398 368 96.16 368H80C67.2696 368 55.0606 362.943 46.0589 353.941C37.0571 344.939 32 332.73 32 320V96Z"></path></symbol></svg></div><link rel="stylesheet" id="share-css" href="https://cdn.ampproject.org/v0/bento-social-share-1.0.css?ver=1698139581953" type="text/css" media="all"><script type="text/javascript" src="/themes/crazycattle3d/rs/js/jquery-3.4.1.min.js"></script><script src="/themes/crazycattle3d/rs/js/app.js" type="text/javascript"></script><script defer="" src="/themes/crazycattle3d/rs/js/jquery.validate.min.js" type="text/javascript"></script><script defer="" src="/themes/crazycattle3d/rs/plugins/raty/jquery.raty.js" type="text/javascript"></script><script src="/themes/crazycattle3d/rs/js/script.js" type="text/javascript"></script><foreignobject></foreignobject><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9325d9fd6ab882c0',t:'MTc0NDk5NzAyMi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;"></iframe><script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon="{&quot;rayId&quot;:&quot;9325d9fd6ab882c0&quot;,&quot;version&quot;:&quot;2025.4.0-1-g37f21b1&quot;,&quot;r&quot;:1,&quot;token&quot;:&quot;d554f634e16b4315ad7ea3e7b47c37f8&quot;,&quot;serverTiming&quot;:{&quot;name&quot;:{&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfSpeedBrain&quot;:true,&quot;cfCacheStatus&quot;:true}}}" crossorigin="anonymous"></script>
 </body></html>
